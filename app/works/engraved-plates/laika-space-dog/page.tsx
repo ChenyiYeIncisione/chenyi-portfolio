@@ -1,0 +1,9 @@
+import Link from 'next/link';
+export default function LaikaPage(){return <main className="interior artwork-page">
+  <Link className="breadcrumb" href="/works/engraved-plates">← Engraved Plates</Link>
+  <div className="artwork-head"><div><span className="index">WORK NO. 136 / ENGRAVED PLATES</span><h1>Laika, <em>the Space Dog</em></h1><p>Traditional Florentine Hand Engraving</p></div><span className="artwork-year">2026</span></div>
+  <figure className="artwork-hero"><img src="/images/laika-01.jpg" alt="Laika, the Space Dog — hand-engraved copper plate displayed on a dark surface"/><figcaption>01 / Overall view</figcaption></figure>
+  <div className="artwork-info"><div><span className="index">THE WORK</span><p>Inspired by Laika, the dog sent into orbit aboard Sputnik 2 in 1957, this hand-engraved copper plate depicts a small canine astronaut. Fine burin-cut lines define the figure, from the delicate texture of the fur to the details of the spacesuit.</p><p>Executed using traditional hand-push engraving techniques, the work combines figurative illustration with the precision and expressive possibilities of engraving on metal.</p></div><dl><div><dt>Year</dt><dd>2026</dd></div><div><dt>Material</dt><dd>Copper</dd></div><div><dt>Technique</dt><dd>Traditional hand-push engraving with burin</dd></div><div><dt>Artist</dt><dd>Chenyi Ye</dd></div></dl></div>
+  <div className="artwork-gallery"><figure><img src="/images/laika-02.jpg" alt="Angled detail of hand engraved Laika astronaut on copper"/><figcaption>02 / Engraved detail</figcaption></figure><figure><img src="/images/laika-03.jpg" alt="Full copper plate against a warm neutral background"/><figcaption>03 / Scale and composition</figcaption></figure></div>
+  <Link className="breadcrumb" href="/works/engraved-plates">← Back to Engraved Plates</Link>
+</main>}
