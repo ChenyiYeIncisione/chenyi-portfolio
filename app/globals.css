@@ -235,3 +235,61 @@
     max-height: 420px;
   }
 }
+
+/* V3.1 — Smaller artwork photographs */
+
+/* Main artwork image */
+.artwork-hero {
+  width: min(100% - 40px, 480px) !important;
+  max-width: 480px !important;
+  margin: 40px auto 65px !important;
+}
+
+.artwork-hero figure {
+  width: 100%;
+  margin: 0;
+}
+
+.artwork-hero img {
+  display: block;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  margin: 0 auto;
+}
+
+/* Remove dark background around the image */
+.artwork-hero,
+.artwork-hero figure,
+.artwork-hero img {
+  background: transparent !important;
+}
+
+/* Detail photographs */
+.artwork-gallery {
+  width: min(100% - 40px, 760px) !important;
+  max-width: 760px !important;
+  margin: 0 auto 80px !important;
+  gap: 24px;
+}
+
+.artwork-gallery img {
+  width: 100%;
+  height: auto !important;
+  max-height: 360px;
+  object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 750px) {
+  .artwork-hero {
+    width: min(100% - 32px, 400px) !important;
+    margin: 25px auto 45px !important;
+  }
+
+  .artwork-gallery {
+    width: min(100% - 32px, 480px) !important;
+    grid-template-columns: 1fr;
+  }
+}
