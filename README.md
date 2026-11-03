@@ -25,3 +25,9 @@ Create a GitHub repository, upload these files (not `node_modules`), then import
 ## Notes
 
 Images are intentionally absent until original artwork photography is provided; neutral placeholders appear automatically. No image is represented as Chenyi Ye's actual work. The website has not been deployed or runtime-tested in this environment.
+
+
+## V2.4 museum homepage
+Navigation: Works / Craftsmanship / About (CV and contact are consolidated under About).
+Replace placeholder image files in `public/media/` with original photographs.
+The CV and contact information are intentionally not linked until confirmed.
