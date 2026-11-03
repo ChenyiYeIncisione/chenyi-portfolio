@@ -1,0 +1,1 @@
+import {WorksGrid} from '../components';export default function Works(){return <main className="archive light"><div className="eyebrow">INDEX / COLLECTIONS</div><h1>Selected <em>Works.</em></h1><p className="lead">A catalogue of engraved plates, fine jewellery, decorative objects and experimental works.</p><WorksGrid/></main>}
