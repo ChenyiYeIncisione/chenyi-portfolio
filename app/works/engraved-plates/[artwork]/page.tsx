@@ -1,5 +1,4 @@
 
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { plateArchive } from "../../[slug]/plate-archive";
@@ -22,154 +21,108 @@ export default async function PlateDetailPage({ params }: Props) {
 
   const [mainImage, ...detailImages] = work.images;
 
+  const isNumberOnly = work.title === work.number;
+
   return (
-    <main
-      style={{
-        maxWidth: "1080px",
-        margin: "0 auto",
-        padding: "72px 24px 120px",
-      }}
-    >
+    <main className="interior artwork-page">
       <Link
+        className="breadcrumb"
         href="/works/engraved-plates"
-        style={{
-          display: "inline-block",
-          marginBottom: "64px",
-          fontSize: "12px",
-          letterSpacing: "0.12em",
-          textDecoration: "none",
-          color: "inherit",
-          opacity: 0.7,
-        }}
       >
-        ← ENGRAVED PLATES
+        ← Engraved Plates
       </Link>
 
-      <header style={{ textAlign: "center", marginBottom: "48px" }}>
-        <p
-          style={{
-            fontSize: "12px",
-            letterSpacing: "0.18em",
-            opacity: 0.6,
-            marginBottom: "16px",
-          }}
-        >
-          {work.number} · {work.year}
-        </p>
+      <div className="artwork-head">
+        <div>
+          <span className="index">
+            WORK {work.number.toUpperCase()} / ENGRAVED PLATES
+          </span>
 
-        <h1
-          style={{
-            fontFamily: "Georgia, serif",
-            fontSize: "clamp(32px, 5vw, 52px)",
-            fontWeight: 400,
-            lineHeight: 1.2,
-          }}
-        >
-          {work.title}
-        </h1>
-      </header>
+          <h1>
+            {work.title}
+          </h1>
 
-      <section style={{ maxWidth: "480px", margin: "0 auto 72px" }}>
-        <Image
+          <p>Traditional Florentine Hand Engraving</p>
+        </div>
+
+        <span className="artwork-year">
+          {work.year}
+        </span>
+      </div>
+
+      <figure className="artwork-hero">
+        <img
           src={mainImage}
-          alt={`${work.title} — main view`}
-          width={1200}
-          height={1400}
-          sizes="(max-width: 520px) 100vw, 480px"
-          style={{
-            width: "100%",
-            height: "auto",
-            display: "block",
-            objectFit: "contain",
-          }}
-          priority
+          alt={`${work.title} — hand-engraved brass plate`}
         />
-      </section>
+        <figcaption>01 / Overall view</figcaption>
+      </figure>
+
+      <div className="artwork-info">
+        <div>
+          <span className="index">THE WORK</span>
+
+          <p>
+            {isNumberOnly
+              ? `A traditional Florentine hand-engraved brass plate, created in ${work.year}.`
+              : `${work.title} is a hand-engraved brass plate created in ${work.year}, using traditional Florentine engraving techniques.`}
+          </p>
+
+          <p>
+            The composition is executed by hand using a
+            traditional burin, with each line carefully cut
+            into the metal surface.
+          </p>
+        </div>
+
+        <dl>
+          <div>
+            <dt>Year</dt>
+            <dd>{work.year}</dd>
+          </div>
+
+          <div>
+            <dt>Material</dt>
+            <dd>{work.material}</dd>
+          </div>
+
+          <div>
+            <dt>Technique</dt>
+            <dd>
+              Traditional hand-push engraving with burin
+            </dd>
+          </div>
+
+          <div>
+            <dt>Artist</dt>
+            <dd>{work.artist}</dd>
+          </div>
+        </dl>
+      </div>
 
       {detailImages.length > 0 && (
-        <section style={{ marginBottom: "88px" }}>
-          <h2
-            style={{
-              fontFamily: "Georgia, serif",
-              fontSize: "24px",
-              fontWeight: 400,
-              textAlign: "center",
-              marginBottom: "32px",
-            }}
-          >
-            Details
-          </h2>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns:
-                "repeat(auto-fit, minmax(min(100%, 280px), 1fr))",
-              gap: "20px",
-              alignItems: "start",
-            }}
-          >
-            {detailImages.map((src, index) => (
-              <Image
-                key={src}
+        <div className="artwork-gallery">
+          {detailImages.map((src, index) => (
+            <figure key={src}>
+              <img
                 src={src}
-                alt={`${work.title} — detail ${index + 1}`}
-                width={1000}
-                height={1000}
-                sizes="(max-width: 640px) 100vw, 50vw"
-                style={{
-                  width: "100%",
-                  height: "auto",
-                  objectFit: "contain",
-                }}
+                alt={`${work.title} — engraved detail ${index + 1}`}
               />
-            ))}
-          </div>
-        </section>
+
+              <figcaption>
+                {String(index + 2).padStart(2, "0")} / Details
+              </figcaption>
+            </figure>
+          ))}
+        </div>
       )}
 
-      <section
-        style={{
-          maxWidth: "480px",
-          margin: "0 auto",
-          borderTop: "1px solid rgba(100, 90, 75, 0.25)",
-          paddingTop: "32px",
-        }}
+      <Link
+        className="breadcrumb"
+        href="/works/engraved-plates"
       >
-        <h2
-          style={{
-            fontFamily: "Georgia, serif",
-            fontSize: "24px",
-            fontWeight: 400,
-            marginBottom: "28px",
-          }}
-        >
-          Artwork Information
-        </h2>
-
-        {[
-          ["Artist", work.artist],
-          ["Year", work.year],
-          ["Material", work.material],
-          ["Technique", work.technique],
-        ].map(([label, value]) => (
-          <div
-            key={label}
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              gap: "24px",
-              padding: "13px 0",
-              borderBottom: "1px solid rgba(100, 90, 75, 0.12)",
-              fontSize: "13px",
-            }}
-          >
-            <span style={{ opacity: 0.6 }}>{label}</span>
-            <span style={{ textAlign: "right" }}>{value}</span>
-          </div>
-        ))}
-      </section>
+        ← Back to Engraved Plates
+      </Link>
     </main>
   );
 }
-
