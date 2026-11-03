@@ -27,3 +27,13 @@ The eight JPGs in `public/images/` are **cropped from the AI-generated visual mo
 ## Notes
 
 Category pages are real navigable routes, but **individual artwork entries and downloadable CV are not yet populated** because artwork metadata, images, CV file and contact address have not been supplied. The category and process pages explicitly show placeholders rather than inventing your work history or artwork information.
+
+
+## IMPORTANT: Updating an existing GitHub repository
+This archive includes `app/components.tsx` specifically to replace the incompatible
+V2.6 file still present in older repositories. Overwrite ALL matching files.
+In GitHub, `public/images` must contain actual image files under the two nested
+folders `public` and `images` (not a literal folder named `public/images`).
+Do not simply add the new files while leaving old files with the same names.
+If any old pages or files remain outside this archive, delete them or verify
+that they do not introduce build errors.
