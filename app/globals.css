@@ -84,3 +84,29 @@
   object-fit: cover;
   object-position: center bottom;
 }
+/* Work archive - No. 136 */
+.artwork-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
+.artwork-index-card{display:block;max-width:620px}
+.artwork-index-card .image-wrap{aspect-ratio:1.48;margin-bottom:17px}
+.artwork-index-card img{height:100%;object-fit:cover;transition:transform .5s}
+.artwork-index-card:hover img{transform:scale(1.035)}
+.artwork-index-card h2{font-size:clamp(30px,3vw,46px);margin:9px 0 4px}
+.artwork-index-card h2 span{font:20px Arial,sans-serif;margin-left:12px}
+.artwork-index-card p{font:italic 20px 'Cormorant Garamond',serif;color:var(--muted)}
+.artwork-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin:8px 0 38px}
+.artwork-head h1{font-size:clamp(55px,7vw,110px);line-height:.92;letter-spacing:-.05em;margin:20px 0}
+.artwork-head h1 em{font-weight:400}
+.artwork-head p{font:italic 26px 'Cormorant Garamond',serif;color:var(--muted);margin:0}
+.artwork-year{font:italic 26px 'Cormorant Garamond',serif}
+.artwork-hero,.artwork-gallery figure{margin:0}
+.artwork-hero img{width:100%;max-height:820px;object-fit:contain;background:#181715}
+.artwork-hero figcaption,.artwork-gallery figcaption{font:10px 'DM Sans',sans-serif;letter-spacing:.13em;color:var(--muted);padding:13px 0}
+.artwork-info{display:grid;grid-template-columns:58% 35%;justify-content:space-between;gap:40px;padding:55px 0 60px}
+.artwork-info p{font:22px/1.48 'Cormorant Garamond',serif;max-width:650px;margin:18px 0}
+.artwork-info dl{margin:0}
+.artwork-info dl div{display:grid;grid-template-columns:110px 1fr;border-top:1px solid var(--rule);padding:15px 0;gap:10px}
+.artwork-info dt{font:10px 'DM Sans',sans-serif;letter-spacing:.09em;color:var(--muted)}
+.artwork-info dd{font:19px 'Cormorant Garamond',serif;margin:0}
+.artwork-gallery{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:60px}
+.artwork-gallery img{width:100%;height:520px;object-fit:cover}
+@media(max-width:750px){.artwork-index{grid-template-columns:1fr}.artwork-head{align-items:start}.artwork-head h1{font-size:55px}.artwork-info{grid-template-columns:1fr;padding:35px 0}.artwork-gallery{grid-template-columns:1fr}.artwork-gallery img{height:auto}.artwork-year{font-size:20px}}
