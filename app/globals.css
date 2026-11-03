@@ -68,3 +68,19 @@
 .hero-ornament {
   display: none !important;
 }
+/* Remove the remaining ornament from the landscape */
+.hero-ornament {
+  display: none !important;
+}
+
+.hero-landscape {
+  height: 140px;
+  overflow: hidden;
+}
+
+.hero-landscape img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
