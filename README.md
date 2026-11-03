@@ -1,33 +1,29 @@
-# CHENYI YE — Digital Craft Archive
+# CHENYI YE — Digital Craft Archive V2.8
 
-A Next.js starter portfolio with a dark gallery homepage and a light museum-style archive.
+A deployable Next.js portfolio inspired by the approved warm-parchment editorial concept.
 
-## Run locally
+## Deploy to your existing GitHub + Vercel site
 
-1. Install Node.js 20+.
-2. Open a terminal in this folder.
-3. Run `npm install` and then `npm run dev`.
-4. Open http://localhost:3000.
+1. Download and unzip this archive.
+2. Open your existing GitHub repository: https://github.com/ChenyiYeIncisione/chenyi-portfolio
+3. **Back up your existing files first** (download the repository as ZIP, or create a backup branch).
+4. Replace the root files (`package.json`, `tsconfig.json`, `next-env.d.ts`, `.gitignore`) and the **entire `app/` folder** with the files in this ZIP. Upload `public/images/` too. Do not place the ZIP itself in the repository.
+5. Commit changes to the branch Vercel deploys (usually `main`). Vercel should redeploy automatically. You can also run `npm install && npm run dev` locally.
+6. If the old repository has a conflicting `pages/` directory, custom config or dependency lockfile, review it before overwriting; this package is intended as a standalone replacement.
 
-## Edit your works
+## IMPORTANT: Image placeholders
 
-- Open `app/data.ts` and replace the four DEMO records with your verified work titles, materials, techniques, dates and your actual role.
-- Add images in `public/media/` with the matching file names or update the paths in `app/data.ts`.
-- To add a process video, place an MP4 in `public/media/` and set a work's `video` property to `/media/your-video.mp4`.
-- Replace the placeholder contact email in `app/layout.tsx`.
-- Add a real PDF at `public/chenyi-ye-cv.pdf`; the About page has a link prepared for it.
-- Do not publish demo records or placeholder email as real professional information.
+The eight JPGs in `public/images/` are **cropped from the AI-generated visual mockup** and are illustrative placeholders, **not photos of Chenyi Ye's actual works**. Replace them with your own images **using the same filenames** to preserve the layout. The landscape and ornamental hero images are illustrative as well.
 
-## GitHub + Vercel
+## Where to edit
 
-Create a GitHub repository, upload these files (not `node_modules`), then import the repository at vercel.com/new. Use the default Next.js framework settings. The first build will run after installing dependencies.
+- Homepage: `app/page.tsx`
+- Works and Craftsmanship names/descriptions: `app/data.ts`
+- About text and contact: `app/about/page.tsx`
+- Fonts, colors, responsive design: `app/globals.css`
+- Site title/navigation/footer: `app/layout.tsx`
+- Replace `public/images/*.jpg` with your real work photos.
 
 ## Notes
 
-Images are intentionally absent until original artwork photography is provided; neutral placeholders appear automatically. No image is represented as Chenyi Ye's actual work. The website has not been deployed or runtime-tested in this environment.
-
-
-## V2.4 museum homepage
-Navigation: Works / Craftsmanship / About (CV and contact are consolidated under About).
-Replace placeholder image files in `public/media/` with original photographs.
-The CV and contact information are intentionally not linked until confirmed.
+Category pages are real navigable routes, but **individual artwork entries and downloadable CV are not yet populated** because artwork metadata, images, CV file and contact address have not been supplied. The category and process pages explicitly show placeholders rather than inventing your work history or artwork information.
