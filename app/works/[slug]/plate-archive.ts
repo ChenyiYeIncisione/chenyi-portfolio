@@ -34,8 +34,8 @@ export const plateArchive: PlateArtwork[] = [
     technique: "Traditional hand-push engraving",
     artist: "Chenyi Ye",
     images: [
-      "/images/plate-monkey-king-01.jpg",
       "/images/plate-monkey-king-02.jpg",
+      "/images/plate-monkey-king-01.jpg",
       "/images/plate-monkey-king-03.jpg",
     ],
   },
@@ -48,8 +48,8 @@ export const plateArchive: PlateArtwork[] = [
     technique: "Traditional hand-push engraving",
     artist: "Chenyi Ye",
     images: [
-      "/images/plate-no-92-01.jpg",
       "/images/plate-no-92-02.jpg",
+      "/images/plate-no-92-01.jpg",
     ],
   },
   {
