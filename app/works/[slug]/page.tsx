@@ -44,7 +44,7 @@ export default async function WorkCategory({
               />
             </div>
 
-            <span className="index">WORK NO. 136 · 2026</span>
+            <span className="index">WORK NO. 155 · 2026</span>
 
             <h2>
               Laika, the Space Dog <span>↗</span>
