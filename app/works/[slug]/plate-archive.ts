@@ -189,6 +189,8 @@ images: [
   },
   
   {
+ 
+  {
     slug: "no-144",
     number: "No. 144",
     title: "No. 144",
@@ -200,11 +202,10 @@ images: [
       "/images/plate-no-144-01.jpg",
       "/images/plate-no-144-02.jpg",
       "/images/plate-no-144-03.jpg",
-description: [
-  "This brass plate presents two compositions of classical acanthus scrollwork, exploring ornamental rhythm, balance and depth.",
-  "Variations in burin-cut line thickness and density define the overlapping leaves and flowing curves, demonstrating the precision of traditional Florentine engraving.",
-],
-  
+    ],
+    description: [
+      "This brass plate presents two compositions of classical acanthus scrollwork, exploring ornamental rhythm, balance and depth.",
+      "Variations in burin-cut line thickness and density define the overlapping leaves and flowing curves, demonstrating the precision of traditional Florentine engraving.",
     ],
   },
   {
@@ -220,12 +221,10 @@ description: [
       "/images/plate-no-104-02.jpg",
       "/images/plate-no-104-03.jpg",
       "/images/plate-no-104-04.jpg",
-      
-description: [
-  "An asymmetrical composition of classical acanthus leaves and interlacing scrolls, emphasising fluid movement and ornamental continuity.",
-  "Controlled variations in line depth and shading create volume and contrast, highlighting the expressive qualities of traditional hand engraving.",
-],
-  
+    ],
+    description: [
+      "An asymmetrical composition of classical acanthus leaves and interlacing scrolls, emphasising fluid movement and ornamental continuity.",
+      "Controlled variations in line depth and shading create volume and contrast, highlighting the expressive qualities of traditional hand engraving.",
     ],
   },
   {
@@ -239,12 +238,10 @@ description: [
     images: [
       "/images/plate-no-98-01.jpg",
       "/images/plate-no-98-02.jpg",
-      
-description: [
-  "Combining classical acanthus scrollwork with delicate floral elements, this engraving explores the relationship between ornamental structure and botanical forms.",
-  "Fine burin-cut lines define the curling leaves, slender stems and blossoms, creating a sense of natural growth and movement.",
-],
-  
+    ],
+    description: [
+      "Combining classical acanthus scrollwork with delicate floral elements, this engraving explores the relationship between ornamental structure and botanical forms.",
+      "Fine burin-cut lines define the curling leaves, slender stems and blossoms, creating a sense of natural growth and movement.",
     ],
   },
   {
@@ -258,11 +255,10 @@ description: [
     images: [
       "/images/plate-no-114-01.jpg",
       "/images/plate-no-114-02.jpg",
-description: [
-  "A study of classical acanthus ornamentation, featuring overlapping leaves and sweeping curves.",
-  "Through variations in line direction, spacing and density, the engraving creates depth and contrast, translating the sculptural qualities of traditional ornament into brass.",
-],
-  
+    ],
+    description: [
+      "A study of classical acanthus ornamentation, featuring overlapping leaves and sweeping curves.",
+      "Through variations in line direction, spacing and density, the engraving creates depth and contrast, translating the sculptural qualities of traditional ornament into brass.",
     ],
   },
   {
@@ -277,12 +273,10 @@ description: [
       "/images/plate-sandfox-01.jpg",
       "/images/plate-sandfox-02.jpg",
       "/images/plate-sandfox-03.jpg",
-      
-description: [
-  "Depicting a desert fox with its distinctive large ears and slender form, this engraving explores the representation of animal anatomy, fur and movement through traditional hand engraving.",
-  "Fine, directional burin cuts describe the texture of the fur, while variations in line density establish the animal's form and its relationship with the surrounding landscape. The composition combines naturalistic observation with the expressive possibilities of engraving on brass.",
-],
-  
+    ],
+    description: [
+      "Depicting a desert fox with its distinctive large ears and slender form, this engraving explores the representation of animal anatomy, fur and movement through traditional hand engraving.",
+      "Fine, directional burin cuts describe the texture of the fur, while variations in line density establish the animal's form and its relationship with the surrounding landscape. The composition combines naturalistic observation with the expressive possibilities of engraving on brass.",
     ],
   },
   {
@@ -296,12 +290,10 @@ description: [
     images: [
       "/images/plate-no-116-01.jpg",
       "/images/plate-no-116-02.jpg",
-description: [
-  "An elaborate composition of classical acanthus scrollwork, characterised by densely interwoven leaves and sweeping curves.",
-  "Closely spaced burin cuts and contrasting engraved textures establish depth and volume, demonstrating the precision and complexity of traditional Florentine ornamentation.",
-],
-  
+    ],
+    description: [
+      "An elaborate composition of classical acanthus scrollwork, characterised by densely interwoven leaves and sweeping curves.",
+      "Closely spaced burin cuts and contrasting engraved textures establish depth and volume, demonstrating the precision and complexity of traditional Florentine ornamentation.",
     ],
   },
-
 ];
