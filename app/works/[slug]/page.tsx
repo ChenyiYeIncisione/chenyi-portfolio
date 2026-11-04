@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { works } from "../../data";
 import { plateArchive } from "./plate-archive";
+import { jewelleryArchive } from "./jewellery-archive";
 
 export function generateStaticParams() {
   return works.map((w) => ({ slug: w.slug }));
@@ -42,17 +43,11 @@ export default async function WorkCategory({
                 alt="Laika, the Space Dog — hand engraved copper plate"
               />
             </div>
-
             <span className="index">WORK NO. 155 · 2026</span>
-
-            <h2>
-              Laika, the Space Dog <span>↗</span>
-            </h2>
-
+            <h2>Laika, the Space Dog <span>↗</span></h2>
             <p>Copper · Hand-push engraving, burin</p>
           </Link>
 
-          {/* Engraved plates: image covers, or video for video-only works */}
           {plateArchive.map((artwork) => (
             <Link
               key={artwork.slug}
@@ -78,41 +73,64 @@ export default async function WorkCategory({
                   />
                 ) : null}
               </div>
-
               <span className="index">
                 WORK {artwork.number.toUpperCase()} · {artwork.year}
               </span>
-
-              <h2>
-                {artwork.title} <span>↗</span>
-              </h2>
-
+              <h2>{artwork.title} <span>↗</span></h2>
               <p>{artwork.material} · Hand-push engraving, burin</p>
+            </Link>
+          ))}
+        </div>
+      ) : slug === "jewellery" ? (
+        <div className="artwork-index plate-three-column">
+          {jewelleryArchive.map((artwork) => (
+            <Link
+              key={artwork.slug}
+              className="artwork-index-card"
+              href={`/works/jewellery/${artwork.slug}`}
+            >
+              <div className="image-wrap">
+                {artwork.cover || artwork.images[0] ? (
+                  <img
+                    src={artwork.cover || artwork.images[0]}
+                    alt={`${artwork.title} — ${artwork.material}`}
+                  />
+                ) : artwork.videos[0] ? (
+                  <video
+                    src={artwork.videos[0]}
+                    muted
+                    playsInline
+                    autoPlay
+                    loop
+                    preload="metadata"
+                    aria-label={`${artwork.title} — jewellery video`}
+                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                  />
+                ) : null}
+              </div>
+              <span className="index">
+                {artwork.number.toUpperCase()} · {artwork.year}
+              </span>
+              <h2>{artwork.title} <span>↗</span></h2>
+              <p>{artwork.material} · {artwork.category}</p>
             </Link>
           ))}
         </div>
       ) : (
         <>
           <div className="detail-image">
-            <img
-              src={w.image}
-              alt={w.title + " — illustrative placeholder"}
-            />
+            <img src={w.image} alt={w.title + " — illustrative placeholder"} />
           </div>
-
           <div className="detail-info">
             <span>COLLECTION OVERVIEW</span>
-
             <div>
               <h2>Archive in progress</h2>
-
               <p>
                 This category is ready for your own work photographs,
                 artwork titles, materials, dates, process notes and
                 detail views. The current photograph is an illustrative
                 placeholder, not a documented work.
               </p>
-
               <Link className="quiet-link" href="/works">
                 View all collections ↗
               </Link>
