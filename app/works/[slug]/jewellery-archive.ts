@@ -119,5 +119,45 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "videos": [],
     "cover": "/images/JW-R-001-01.jpg",
     "order": 5
+  },
+  {
+      "slug": "jw-r-006",
+      "number": "JW-R-006",
+      "title": "Nine-Coloured Deer Signet Ring",
+      "category": "Rings",
+      "year": "2025",
+      "material": "Silver",
+      "technique": "Traditional hand engraving with burin",
+      "artist": "Chenyi Ye",
+      "description": [
+          "A silver signet ring from the Nine-Coloured Deer series, inspired by the Dunhuang murals. The deer motif is rendered through traditional hand engraving, translating a historical visual narrative into a contemporary piece of jewellery."
+      ],
+      "images": [
+          "/images/JW-R-006-01.jpg",
+          "/images/JW-R-006-02.jpg"
+      ],
+      "videos": [],
+      "cover": "/images/JW-R-006-01.jpg",
+      "order": 6
+  },
+    {
+      "slug": "jw-r-007",
+      "number": "JW-R-007",
+      "title": "Nine-Coloured Deer Signet Ring",
+      "category": "Rings",
+      "year": "2025",
+      "material": "Silver",
+      "technique": "Traditional hand engraving with burin",
+      "artist": "Chenyi Ye",
+      "description": [
+          "A silver signet ring from the Nine-Coloured Deer series, inspired by the Dunhuang murals. The deer motif is rendered through traditional hand engraving, translating a historical visual narrative into a contemporary piece of jewellery."
+      ],
+      "images": [
+          "/images/JW-R-007-01.jpg",
+          "/images/JW-R-007-02.jpg"
+      ],
+      "videos": [],
+      "cover": "/images/JW-R-007-01.jpg",
+      "order": 7
   }
 ];
