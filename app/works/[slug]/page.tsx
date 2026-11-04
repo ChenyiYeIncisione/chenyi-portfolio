@@ -31,7 +31,7 @@ export default async function WorkCategory({
       </div>
 
       {slug === "engraved-plates" ? (
-        <div className="artwork-index">
+        <div className="artwork-index plate-three-column">
           {/* Existing artwork: Laika */}
           <Link
             className="artwork-index-card"
