@@ -586,7 +586,7 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-63-01.jpg",
     ],
     description: [
-      "An exploration of ornamental engraving applied to different objects and surfaces. The study focuses on adapting flowing scrollwork to the shape of each object while maintaining line control and decorative balance.",
+      "A study of traditional ornamental engraving applied to weapon surfaces. Executed with a hand-held burin, the decorative scrollwork explores the relationship between flowing ornamental lines, surface contours and the craftsmanship of historical metal engraving.",
     ],
   },
   {
@@ -601,7 +601,7 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-64-01.jpg",
     ],
     description: [
-      "An exploration of ornamental engraving applied to different objects and surfaces. The study focuses on adapting flowing scrollwork to the shape of each object while maintaining line control and decorative balance.",
+      "A study of traditional ornamental engraving applied to weapon surfaces. Executed with a hand-held burin, the decorative scrollwork explores the relationship between flowing ornamental lines, surface contours and the craftsmanship of historical metal engraving.",
     ],
   },
   {
@@ -661,7 +661,7 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-71-01.jpg",
     ],
     description: [
-      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+      "A study of traditional ornamental engraving applied to weapon surfaces. Executed with a hand-held burin, the decorative scrollwork explores the relationship between flowing ornamental lines, surface contours and the craftsmanship of historical metal engraving.",
     ],
   },
   {
@@ -771,7 +771,7 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-54-03.jpg",
     ],
     description: [
-      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+      "A study of traditional ornamental engraving on a metal box lid. The composition explores the relationship between decorative scrollwork and the architectural boundaries of the object, combining precise burin cuts with the flowing rhythm of classical ornamentation.",
     ],
   },
   {
@@ -786,7 +786,7 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-56-01.jpg",
     ],
     description: [
-      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+      "A study of classical ornamental border engraving, focusing on the rhythm, symmetry and continuity of decorative patterns. Executed with a traditional hand-held burin, the work explores precise line control and the balance between ornament and negative space.",
     ],
   },
   {
@@ -801,7 +801,7 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-76-01.jpg",
     ],
     description: [
-      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+      "A study of traditional ornamental engraving applied to weapon surfaces. Executed with a hand-held burin, the decorative scrollwork explores the relationship between flowing ornamental lines, surface contours and the craftsmanship of historical metal engraving.",
     ],
   },
   {
@@ -816,7 +816,7 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-78-01.jpg",
     ],
     description: [
-      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+      "A study of traditional ornamental engraving applied to weapon surfaces. Executed with a hand-held burin, the decorative scrollwork explores the relationship between flowing ornamental lines, surface contours and the craftsmanship of historical metal engraving.",
     ],
   },
   {
