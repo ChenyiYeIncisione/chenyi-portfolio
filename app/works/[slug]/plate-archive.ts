@@ -158,7 +158,7 @@ export const plateArchive: PlateArtwork[] = [
   },
   {
     slug: "kwanyin",
-    number: "No. 153",
+    number: "No. 166",
     title: "Kwanyin",
     year: "2024",
     material: "Brass",
