@@ -221,5 +221,166 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "videos": [],
     "cover": "/images/JW-R-002-01.jpg",
     "order": 10
+  },
+  {
+    "slug": "jw-p-001",
+    "number": "JW-P-001",
+    "title": "Reversible Jadeite Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2026",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A reversible pendant in 18K white gold, featuring white jadeite on one side and a sapphire on the reverse, complemented by hand-engraved ornamentation."
+    ],
+    "images": [
+      "/images/JW-P-001-01.jpg",
+      "/images/JW-P-001-02.jpg",
+      "/images/JW-P-001-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-001-01.jpg",
+    "order": 11
+  },
+  {
+    "slug": "jw-p-002",
+    "number": "JW-P-002",
+    "title": "Knight’s Shield Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2025",
+    "material": "Silver, Pink Sapphire",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "Inspired by a knight’s armour and shield, this silver pendant features a pink sapphire and finely hand-engraved surface textures."
+    ],
+    "images": [
+      "/images/JW-P-002-01.jpg",
+      "/images/JW-P-002-02.jpg",
+      "/images/JW-P-002-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-002-01.jpg",
+    "order": 12
+  },
+  {
+    "slug": "jw-p-003",
+    "number": "JW-P-003",
+    "title": "Cross-Star Medallion",
+    "category": "Pendants & Necklaces",
+    "year": "2025",
+    "material": "Silver",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A round silver medallion featuring a hand-engraved cross-star motif."
+    ],
+    "images": [
+      "/images/JW-P-003-01.jpg",
+      "/images/JW-P-003-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-003-01.jpg",
+    "order": 13
+  },
+  {
+    "slug": "jw-p-004",
+    "number": "JW-P-004",
+    "title": "Openwork Jadeite Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2025",
+    "material": "18K White Gold, 18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An openwork pendant crafted in 18K white and yellow gold, featuring a centrally set jadeite and traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-P-004-01.jpg",
+      "/images/JW-P-004-02.jpg",
+      "/images/JW-P-004-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-004-01.jpg",
+    "order": 14
+  },
+  {
+    "slug": "jw-p-005",
+    "number": "JW-P-005",
+    "title": "Nine-Coloured Deer Signet Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2025",
+    "material": "Silver",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A silver signet pendant from the Nine-Coloured Deer series, inspired by the Dunhuang murals and depicting a deer through traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-P-005-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-005-01.jpg",
+    "order": 15
+  },
+  {
+    "slug": "jw-p-006",
+    "number": "JW-P-006",
+    "title": "Nine-Coloured Deer Signet Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2025",
+    "material": "Silver",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A silver signet pendant from the Nine-Coloured Deer series, inspired by the Dunhuang murals and depicting a deer through traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-P-006-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-006-01.jpg",
+    "order": 16
+  },
+  {
+    "slug": "jw-p-007",
+    "number": "JW-P-007",
+    "title": "Reversible Opal Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2026",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A reversible pendant in 18K white gold, set with an Australian opal on one side and a sapphire on the reverse, with hand-engraved ornamentation."
+    ],
+    "images": [
+      "/images/JW-P-007-01.jpg",
+      "/images/JW-P-007-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-007-01.jpg",
+    "order": 17
+  },
+  {
+    "slug": "jw-p-008",
+    "number": "JW-P-008",
+    "title": "Lucky Horseshoe Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2026",
+    "material": "18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K yellow gold pendant featuring a lucky horseshoe motif, part of the Lucky Horseshoe series."
+    ],
+    "images": [
+      "/images/JW-P-008-01.jpg",
+      "/images/JW-P-008-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-008-01.jpg",
+    "order": 18
   }
 ];
