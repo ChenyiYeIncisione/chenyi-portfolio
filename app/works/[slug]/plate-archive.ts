@@ -1,164 +1,3 @@
-
-export type PlateArtwork = {
-  slug: string;
-  number: string;
-  title: string;
-  year: string;
-  material: string;
-  technique: string;
-  artist: string;
-  images: string[];
-  description?: string[];
-};
-
-export const plateArchive: PlateArtwork[] = [
-  {
-    slug: "no-68",
-    number: "No. 68",
-    title: "No. 68",
-    year: "2023",
-    material: "Brass",
-    technique: "Traditional hand-push engraving",
-    artist: "Chenyi Ye",
-    images: [
-      "/images/plate-no-68-01.jpg",
-      "/images/plate-no-68-02.jpg",
-      "/images/plate-no-68-03.jpg",
-    ],
-    description: [
-      "Part of a series of traditional hand-engraving studies, this brass plate explores classical ornamental patterns through the disciplined use of a hand-held burin.",
-      "The exercise focuses on line control, consistency and the precise execution of engraved forms, developing the technical foundations of traditional Florentine engraving.",
-    ],
-  },
-  {
-    slug: "monkey-king",
-    number: "No. 77",
-    title: "Monkey King",
-    year: "2023",
-    material: "Brass",
-    technique: "Traditional hand-push engraving",
-    artist: "Chenyi Ye",
-    images: [
-      "/images/plate-monkey-king-03.jpg",
-      "/images/plate-monkey-king-01.jpg",
-      "/images/plate-monkey-king-02.jpg",
-    ],
-    description: [
-      "Inspired by Sun Wukong, the legendary Monkey King from the Chinese novel Journey to the West, this engraving focuses on capturing the character's dynamic movement and the intricate texture of his fur.",
-      "Variations in the direction, density and depth of hand-cut lines convey the natural flow of the fur and the vitality of the figure, translating expressive movement into engraved metal.",
-    ],
-  },
-  {
-    slug: "no-92",
-    number: "No. 92",
-    title: "No. 92",
-    year: "2023",
-    material: "Brass",
-    technique: "Traditional hand-push engraving",
-    artist: "Chenyi Ye",
-    images: [
-      "/images/plate-no-92-02.jpg",
-      "/images/plate-no-92-01.jpg",
-    ],
-    description: [
-      "This engraving study focuses on classical decorative motifs, with particular attention to the direction, rhythm and continuity of engraved lines.",
-      "Variations in cutting pressure and line depth contribute to the clarity, texture and refinement of the ornamental composition.",
-    ],
-  },
-  {
-    slug: "rhinoceros",
-    number: "No. 99",
-    title: "Rhinoceros",
-    year: "2023",
-    material: "Brass",
-    technique: "Traditional hand-push engraving",
-    artist: "Chenyi Ye",
-    images: [
-      "/images/plate-rhinoceros-01.jpg",
-      "/images/plate-rhinoceros-02.jpg",
-      "/images/plate-rhinoceros-03.jpg",
-    ],
-    description: [
-      "Based on The Rhinoceros (1515), the celebrated woodcut by German Renaissance artist Albrecht Dürer, this engraving explores the translation of historical printmaking into metal.",
-      "Using a traditional hand-held burin, the work recreates the distinctive textures, elaborate patterns and armour-like character of Dürer's rhinoceros through precisely incised lines on brass.",
-    ],
-  },
-  {
-    slug: "no-115",
-    number: "No. 115",
-    title: "No. 115",
-    year: "2023",
-    material: "Brass",
-    technique: "Traditional hand-push engraving",
-    artist: "Chenyi Ye",
-    images: [
-      "/images/plate-no-115-01.jpg",
-      "/images/plate-no-115-02.jpg",
-      "/images/plate-no-115-03.jpg",
-    ],
-    description: [
-      "A technical study in traditional Florentine hand engraving, exploring the relationship between ornamental composition and the precise movement of the burin.",
-      "The work emphasises control over line quality, spacing and transitions, reflecting the craftsmanship required in fine metal engraving.",
-    ],
-  },
-  {
-    slug: "medieval-knight",
-    number: "No. 122–123",
-    title: "Medieval Knight",
-    year: "2023",
-    material: "Brass",
-    technique: "Traditional hand-push engraving",
-    artist: "Chenyi Ye",
-    images: [
-      "/images/plate-medieval-knight-01.jpg",
-      "/images/plate-medieval-knight-02.jpg",
-      "/images/plate-medieval-knight-03.jpg",
-      "/images/plate-medieval-knight-04.jpg",
-      "/images/plate-medieval-knight-05.jpg",
-    ],
-    description: [
-      "Drawing upon the imagery of medieval European knights, this engraving explores the relationship between historical armour, ornamental craftsmanship and traditional metal engraving.",
-      "Through controlled burin cuts, the composition interprets a historical subject while emphasising the decorative and sculptural qualities of hand-engraved brass.",
-    ],
-  },
-  {
-    slug: "no-52",
-    number: "No. 52",
-    title: "No. 52",
-    year: "2023",
-    material: "Brass",
-    technique: "Traditional hand-push engraving",
-    artist: "Chenyi Ye",
-    images: [
-      "/images/plate-no-52-01.jpg",
-      "/images/plate-no-52-02.jpg",
-      "/images/plate-no-52-03.jpg",
-    ],
-    description: [
-      "A technical study of traditional scrollwork engraving, focusing on the precision and fluidity of curved lines. The exercise develops burin control through consistent cutting depth, line spacing and continuous movement.",
-    ],
-  },
-  {
-    slug: "no-102",
-    number: "No. 102",
-    title: "No. 102",
-    year: "2023",
-    material: "Brass",
-    technique: "Traditional hand-push engraving",
-    artist: "Chenyi Ye",
-    images: [
-      "/images/plate-no-102-01.jpg",
-      "/images/plate-no-102-02.jpg",
-      "/images/plate-no-102-03.jpg",
-      "/images/plate-no-102-04.jpg",
-    ],
-    description: [
-      "An exploration of classical scrollwork patterns through traditional hand-push engraving. Repeated curved cuts develop control over line direction, depth and spacing, refining the accuracy and rhythm of ornamental engraving.",
-    ],
-  },
-  {
-    slug: "kwanyin",
-    number: "No. 137",
     title: "Kwanyin",
     year: "2024",
     material: "Brass",
@@ -304,7 +143,7 @@ export const plateArchive: PlateArtwork[] = [
   },
   {
     slug: "sandfox",
-    number: "No. 75",
+    number: "No. 55",
     title: "Sandfox",
     year: "2023",
     material: "Brass",
@@ -337,4 +176,17 @@ export const plateArchive: PlateArtwork[] = [
       "Closely spaced burin cuts and contrasting engraved textures establish depth and volume, demonstrating the precision and complexity of traditional Florentine ornamentation.",
     ],
   },
-];
+  {
+    slug: "no-82",
+    number: "No. 82",
+    title: "No. 82",
+    year: "2023",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-florence-01.jpg",
+      "/images/plate-florence-02.jpg",
+      "/images/plate-florence-03.jpg",
+      "/images/plate-florence-04.jpg",
+      "/images/plate-florence-05.jpg",
