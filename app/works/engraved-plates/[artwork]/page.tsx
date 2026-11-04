@@ -62,17 +62,25 @@ export default async function PlateDetailPage({ params }: Props) {
         <div>
           <span className="index">THE WORK</span>
 
-          <p>
-            {isNumberOnly
-              ? `A traditional Florentine hand-engraved brass plate, created in ${work.year}.`
-              : `${work.title} is a hand-engraved brass plate created in ${work.year}, using traditional Florentine engraving techniques.`}
-          </p>
+        
+{work.description?.length ? (
+  work.description.map((paragraph, index) => (
+    <p key={index}>{paragraph}</p>
+  ))
+) : (
+  <>
+    <p>
+      {isNumberOnly
+        ? `A traditional Florentine hand-engraved brass plate, created in ${work.year}.`
+        : `${work.title} is a hand-engraved brass plate created in ${work.year}, using traditional Florentine engraving techniques.`}
+    </p>
+    <p>
+      The composition is executed by hand using a traditional
+      burin, with each line carefully cut into the metal surface.
+    </p>
+  </>
+)}
 
-          <p>
-            The composition is executed by hand using a
-            traditional burin, with each line carefully cut
-            into the metal surface.
-          </p>
         </div>
 
         <dl>
