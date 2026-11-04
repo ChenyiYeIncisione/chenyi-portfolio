@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { works } from "../../data";
 import { plateArchive } from "./plate-archive";
 import { jewelleryArchive } from "./jewellery-archive";
+import JewelleryFilter from "./jewellery-filter";
 
 export function generateStaticParams() {
   return works.map((w) => ({ slug: w.slug }));
@@ -82,40 +83,7 @@ export default async function WorkCategory({
           ))}
         </div>
       ) : slug === "jewellery" ? (
-        <div className="artwork-index plate-three-column">
-          {jewelleryArchive.map((artwork) => (
-            <Link
-              key={artwork.slug}
-              className="artwork-index-card"
-              href={`/works/jewellery/${artwork.slug}`}
-            >
-              <div className="image-wrap">
-                {artwork.cover || artwork.images[0] ? (
-                  <img
-                    src={artwork.cover || artwork.images[0]}
-                    alt={`${artwork.title} — ${artwork.material}`}
-                  />
-                ) : artwork.videos[0] ? (
-                  <video
-                    src={artwork.videos[0]}
-                    muted
-                    playsInline
-                    autoPlay
-                    loop
-                    preload="metadata"
-                    aria-label={`${artwork.title} — jewellery video`}
-                    style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-                  />
-                ) : null}
-              </div>
-              <span className="index">
-                {artwork.number.toUpperCase()} · {artwork.year}
-              </span>
-              <h2>{artwork.title} <span>↗</span></h2>
-              <p>{artwork.material} · {artwork.category}</p>
-            </Link>
-          ))}
-        </div>
+        <JewelleryFilter artworks={jewelleryArchive} />
       ) : (
         <>
           <div className="detail-image">
