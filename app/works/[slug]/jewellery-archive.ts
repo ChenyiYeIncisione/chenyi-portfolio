@@ -223,6 +223,46 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "order": 10
   },
   {
+    "slug": "jw-p-008",
+    "number": "JW-P-008",
+    "title": "Lucky Horseshoe Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2026",
+    "material": "18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K yellow gold pendant featuring a lucky horseshoe motif, part of the Lucky Horseshoe series."
+    ],
+    "images": [
+      "/images/JW-P-008-01.jpg",
+      "/images/JW-P-008-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-008-01.jpg",
+    "order": 1
+  },
+  {
+    "slug": "jw-p-007",
+    "number": "JW-P-007",
+    "title": "Reversible Opal Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2026",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A reversible pendant in 18K white gold, set with an Australian opal on one side and a sapphire on the reverse, with hand-engraved ornamentation."
+    ],
+    "images": [
+      "/images/JW-P-007-01.jpg",
+      "/images/JW-P-007-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-007-01.jpg",
+    "order": 2
+  },
+  {
     "slug": "jw-p-001",
     "number": "JW-P-001",
     "title": "Reversible Jadeite Pendant",
@@ -241,7 +281,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-001-01.jpg",
-    "order": 11
+    "order": 3
   },
   {
     "slug": "jw-p-002",
@@ -262,7 +302,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-002-01.jpg",
-    "order": 12
+    "order": 4
   },
   {
     "slug": "jw-p-003",
@@ -282,7 +322,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-003-01.jpg",
-    "order": 13
+    "order": 5
   },
   {
     "slug": "jw-p-004",
@@ -303,7 +343,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-004-01.jpg",
-    "order": 14
+    "order": 6
   },
   {
     "slug": "jw-p-005",
@@ -322,7 +362,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-005-01.jpg",
-    "order": 15
+    "order": 7
   },
   {
     "slug": "jw-p-006",
@@ -341,46 +381,185 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-006-01.jpg",
-    "order": 16
+    "order": 8
   },
   {
-    "slug": "jw-p-007",
-    "number": "JW-P-007",
-    "title": "Reversible Opal Pendant",
-    "category": "Pendants & Necklaces",
-    "year": "2026",
+    "slug": "jw-w-009",
+    "number": "JW-W-009",
+    "title": "Two-Tone Wedding Bands",
+    "category": "Wedding Bands",
+    "year": "2024",
+    "material": "18K Rose Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [],
+    "images": [
+      "/images/JW-W-009-01.jpg",
+      "/images/JW-W-009-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-009-01.jpg",
+    "order": 1
+  },
+  {
+    "slug": "jw-w-008",
+    "number": "JW-W-008",
+    "title": "Chinchilla Wedding Bands",
+    "category": "Wedding Bands",
+    "year": "2025",
     "material": "18K White Gold",
     "technique": "Traditional hand engraving with burin",
     "artist": "Chenyi Ye",
     "description": [
-      "A reversible pendant in 18K white gold, set with an Australian opal on one side and a sapphire on the reverse, with hand-engraved ornamentation."
+      "18K white gold wedding bands shaped around a chinchilla silhouette, with classical ornamental engraving along the sides."
     ],
     "images": [
-      "/images/JW-P-007-01.jpg",
-      "/images/JW-P-007-02.jpg"
+      "/images/JW-W-008-01.jpg",
+      "/images/JW-W-008-02.jpg",
+      "/images/JW-W-008-03.jpg"
     ],
     "videos": [],
-    "cover": "/images/JW-P-007-01.jpg",
-    "order": 17
+    "cover": "/images/JW-W-008-01.jpg",
+    "order": 2
   },
   {
-    "slug": "jw-p-008",
-    "number": "JW-P-008",
-    "title": "Lucky Horseshoe Pendant",
-    "category": "Pendants & Necklaces",
-    "year": "2026",
+    "slug": "jw-w-003",
+    "number": "JW-W-003",
+    "title": "Rose Engraved Wedding Bands",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin, rigato",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K yellow gold wedding bands with hand-engraved rose motifs and a rigato-textured ground."
+    ],
+    "images": [
+      "/images/JW-W-003-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-003-01.jpg",
+    "order": 3
+  },
+  {
+    "slug": "jw-w-001",
+    "number": "JW-W-001",
+    "title": "Classical Engraved Wedding Bands",
+    "category": "Wedding Bands",
+    "year": "2024",
+    "material": "Silver",
+    "technique": "Traditional hand engraving with burin, rigato",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of silver wedding bands featuring classical hand-engraved ornamentation over a finely textured rigato ground."
+    ],
+    "images": [
+      "/images/JW-W-001-01.jpg",
+      "/images/JW-W-001-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-001-01.jpg",
+    "order": 100
+  },
+  {
+    "slug": "jw-w-002",
+    "number": "JW-W-002",
+    "title": "Classical Engraved Wedding Bands",
+    "category": "Wedding Bands",
+    "year": "2024",
+    "material": "Silver",
+    "technique": "Traditional hand engraving with burin, rigato",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of silver wedding bands featuring classical hand-engraved ornamentation over a finely textured rigato ground."
+    ],
+    "images": [
+      "/images/JW-W-002-01.jpg",
+      "/images/JW-W-002-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-002-01.jpg",
+    "order": 101
+  },
+  {
+    "slug": "jw-w-004",
+    "number": "JW-W-004",
+    "title": "Sun and Moon Wedding Bands",
+    "category": "Wedding Bands",
+    "year": "2024",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of 18K white gold wedding bands featuring complementary hand-engraved motifs that join together across the two rings."
+    ],
+    "images": [
+      "/images/JW-W-004-01.jpg",
+      "/images/JW-W-004-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-004-01.jpg",
+    "order": 103
+  },
+  {
+    "slug": "jw-w-005",
+    "number": "JW-W-005",
+    "title": "Ruby-Set Wedding Bands",
+    "category": "Wedding Bands",
+    "year": "2024",
+    "material": "18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin, rigato",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K yellow gold wedding bands with classical hand engraving, a rigato-textured ground and ruby accents."
+    ],
+    "images": [
+      "/images/JW-W-005-01.jpg",
+      "/images/JW-W-005-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-005-01.jpg",
+    "order": 104
+  },
+  {
+    "slug": "jw-w-006",
+    "number": "JW-W-006",
+    "title": "Emerald-Set Wedding Bands",
+    "category": "Wedding Bands",
+    "year": "2024",
     "material": "18K Yellow Gold",
     "technique": "Traditional hand engraving with burin",
     "artist": "Chenyi Ye",
     "description": [
-      "An 18K yellow gold pendant featuring a lucky horseshoe motif, part of the Lucky Horseshoe series."
+      "18K yellow gold wedding bands featuring classical hand-engraved ornamentation and emerald accents."
     ],
     "images": [
-      "/images/JW-P-008-01.jpg",
-      "/images/JW-P-008-02.jpg"
+      "/images/JW-W-006-01.jpg",
+      "/images/JW-W-006-02.jpg",
+      "/images/JW-W-006-03.jpg"
     ],
     "videos": [],
-    "cover": "/images/JW-P-008-01.jpg",
-    "order": 18
+    "cover": "/images/JW-W-006-01.jpg",
+    "order": 105
+  },
+  {
+    "slug": "jw-w-007",
+    "number": "JW-W-007",
+    "title": "Diamond-Set Wedding Bands",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K white gold wedding bands with classical hand-engraved ornamentation and a diamond accent."
+    ],
+    "images": [
+      "/images/JW-W-007-01.jpg",
+      "/images/JW-W-007-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-007-01.jpg",
+    "order": 106
   }
 ];
