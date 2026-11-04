@@ -185,3 +185,4 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-portrait-05.jpg",
     ],
   },
+];
