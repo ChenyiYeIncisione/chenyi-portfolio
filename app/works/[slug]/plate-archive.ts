@@ -134,6 +134,9 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-52-02.jpg",
       "/images/plate-no-52-03.jpg",
     ],
+    description: [
+      "A technical study of traditional scrollwork engraving, focusing on the precision and fluidity of curved lines. The exercise develops burin control through consistent cutting depth, line spacing and continuous movement.",
+    ],
   },
   {
     slug: "no-102",
@@ -148,6 +151,9 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-102-02.jpg",
       "/images/plate-no-102-03.jpg",
       "/images/plate-no-102-04.jpg",
+    ],
+    description: [
+      "An exploration of classical scrollwork patterns through traditional hand-push engraving. Repeated curved cuts develop control over line direction, depth and spacing, refining the accuracy and rhythm of ornamental engraving.",
     ],
   },
   {
@@ -165,6 +171,10 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-kwanyin-04.jpg",
       "/images/plate-kwanyin-05.jpg",
     ],
+    description: [
+      "An exploration of Buddhist imagery through traditional hand engraving, focusing on the representation of the figure's proportions and anatomical structure.",
+      "The study emphasises the balance and harmony of the figure, translating the sculptural qualities of Buddhist iconography into engraved metal.",
+    ],
   },
   {
     slug: "c",
@@ -177,6 +187,10 @@ export const plateArchive: PlateArtwork[] = [
     images: [
       "/images/plate-67letterc-01.jpg",
       "/images/plate-67letterc-02.jpg",
+    ],
+    description: [
+      "A study of ornamental lettering, exploring the integration of a decorative initial with classical scrollwork.",
+      "Through traditional hand-push engraving, the letter C is embellished with flowing ornamental motifs, emphasising the balance between letterform, decoration and precise burin control.",
     ],
   },
   {
@@ -193,6 +207,9 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-105-03.jpg",
       "/images/plate-no-105-04.jpg",
     ],
+    description: [
+      "A technical engraving exercise centred on flowing scrollwork and continuous curved lines. The study emphasises controlled burin movement, consistent line quality and the precision required to execute intricate ornamental patterns.",
+    ],
   },
   {
     slug: "portrait",
@@ -208,6 +225,10 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-47portrait-03.jpg",
       "/images/plate-47portrait-04.jpg",
       "/images/plate-47portrait-05.jpg",
+    ],
+    description: [
+      "This engraving study focuses on the detailed representation of facial features and the textures of clothing and fabric.",
+      "Through variations in burin-cut line direction, depth and density, the work explores the rendering of facial expression, textile folds and material textures on brass.",
     ],
   },
   {
