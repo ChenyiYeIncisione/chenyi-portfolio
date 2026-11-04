@@ -339,7 +339,7 @@ export const plateArchive: PlateArtwork[] = [
   {
     slug: "no-82",
     number: "No. 82",
-    title: "No. 82",
+    title: "Florence",
     year: "2023",
     material: "Brass",
     technique: "Traditional hand-push engraving with burin",
@@ -752,6 +752,116 @@ export const plateArchive: PlateArtwork[] = [
     artist: "Chenyi Ye",
     images: [
       "/images/plate-no-119-01.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-54",
+    number: "No. 54",
+    title: "No. 54",
+    year: "2023",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-54-01.jpg",
+      "/images/plate-no-54-02.jpg",
+      "/images/plate-no-54-03.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-56",
+    number: "No. 56",
+    title: "No. 56",
+    year: "2023",
+    material: "Stainless steel",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-56-01.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-76",
+    number: "No. 76",
+    title: "No. 76",
+    year: "2023",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-76-01.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-78",
+    number: "No. 78",
+    title: "No. 78",
+    year: "2023",
+    material: "Stainless steel",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-78-01.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-93",
+    number: "No. 93",
+    title: "No. 93",
+    year: "2023",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-93-01.jpg",
+      "/images/plate-no-93-02.jpg",
+      "/images/plate-no-93-03.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-109",
+    number: "No. 109",
+    title: "No. 109",
+    year: "2023",
+    material: "Stainless steel",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-109-01.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-110",
+    number: "No. 110",
+    title: "No. 110",
+    year: "2023",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-110-01.jpg",
+      "/images/plate-no-110-02.jpg",
     ],
     description: [
       "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
