@@ -157,7 +157,7 @@ export const plateArchive: PlateArtwork[] = [
   },
   {
     slug: "kwanyin",
-    number: "No. 137",
+    number: "No. 153",
     title: "Kwanyin",
     year: "2024",
     material: "Brass",
@@ -487,7 +487,7 @@ export const plateArchive: PlateArtwork[] = [
     slug: "no-143",
     number: "No. 143",
     title: "No. 143",
-    year: "2023",
+    year: "2024",
     material: "Brass",
     technique: "Traditional hand-push engraving with burin",
     artist: "Chenyi Ye",
