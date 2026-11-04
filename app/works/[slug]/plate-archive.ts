@@ -25,6 +25,10 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-68-02.jpg",
       "/images/plate-no-68-03.jpg",
     ],
+    description: [
+      "Part of a series of traditional hand-engraving studies, this brass plate explores classical ornamental patterns through the disciplined use of a hand-held burin.",
+      "The exercise focuses on line control, consistency and the precise execution of engraved forms, developing the technical foundations of traditional Florentine engraving.",
+    ],
   },
   {
     slug: "monkey-king",
@@ -39,6 +43,10 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-monkey-king-01.jpg",
       "/images/plate-monkey-king-02.jpg",
     ],
+    description: [
+      "Inspired by Sun Wukong, the legendary Monkey King from the Chinese novel Journey to the West, this engraving focuses on capturing the character's dynamic movement and the intricate texture of his fur.",
+      "Variations in the direction, density and depth of hand-cut lines convey the natural flow of the fur and the vitality of the figure, translating expressive movement into engraved metal.",
+    ],
   },
   {
     slug: "no-92",
@@ -51,6 +59,10 @@ export const plateArchive: PlateArtwork[] = [
     images: [
       "/images/plate-no-92-02.jpg",
       "/images/plate-no-92-01.jpg",
+    ],
+    description: [
+      "This engraving study focuses on classical decorative motifs, with particular attention to the direction, rhythm and continuity of engraved lines.",
+      "Variations in cutting pressure and line depth contribute to the clarity, texture and refinement of the ornamental composition.",
     ],
   },
   {
@@ -66,6 +78,10 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-rhinoceros-02.jpg",
       "/images/plate-rhinoceros-03.jpg",
     ],
+    description: [
+      "Based on The Rhinoceros (1515), the celebrated woodcut by German Renaissance artist Albrecht Dürer, this engraving explores the translation of historical printmaking into metal.",
+      "Using a traditional hand-held burin, the work recreates the distinctive textures, elaborate patterns and armour-like character of Dürer's rhinoceros through precisely incised lines on brass.",
+    ],
   },
   {
     slug: "no-115",
@@ -79,6 +95,10 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-no-115-01.jpg",
       "/images/plate-no-115-02.jpg",
       "/images/plate-no-115-03.jpg",
+    ],
+    description: [
+      "A technical study in traditional Florentine hand engraving, exploring the relationship between ornamental composition and the precise movement of the burin.",
+      "The work emphasises control over line quality, spacing and transitions, reflecting the craftsmanship required in fine metal engraving.",
     ],
   },
   {
@@ -95,6 +115,10 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-medieval-knight-03.jpg",
       "/images/plate-medieval-knight-04.jpg",
       "/images/plate-medieval-knight-05.jpg",
+    ],
+    description: [
+      "Drawing upon the imagery of medieval European knights, this engraving explores the relationship between historical armour, ornamental craftsmanship and traditional metal engraving.",
+      "Through controlled burin cuts, the composition interprets a historical subject while emphasising the decorative and sculptural qualities of hand-engraved brass.",
     ],
   },
   {
@@ -150,11 +174,10 @@ export const plateArchive: PlateArtwork[] = [
     material: "Brass",
     technique: "Traditional hand-push engraving",
     artist: "Chenyi Ye",
-images: [
-  "/images/plate-67letterc-01.jpg",
-  "/images/plate-67letterc-02.jpg",
-],
-
+    images: [
+      "/images/plate-67letterc-01.jpg",
+      "/images/plate-67letterc-02.jpg",
+    ],
   },
   {
     slug: "no-105",
@@ -179,15 +202,14 @@ images: [
     material: "Brass",
     technique: "Traditional hand-push engraving",
     artist: "Chenyi Ye",
-   images: [
-  "/images/plate-47portrait-01.jpg",
-  "/images/plate-47portrait-02.jpg",
-  "/images/plate-47portrait-03.jpg",
-  "/images/plate-47portrait-04.jpg",
-  "/images/plate-47portrait-05.jpg",
+    images: [
+      "/images/plate-47portrait-01.jpg",
+      "/images/plate-47portrait-02.jpg",
+      "/images/plate-47portrait-03.jpg",
+      "/images/plate-47portrait-04.jpg",
+      "/images/plate-47portrait-05.jpg",
     ],
   },
-  
   {
     slug: "no-144",
     number: "No. 144",
