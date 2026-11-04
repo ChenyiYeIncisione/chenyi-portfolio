@@ -20,7 +20,6 @@ export default async function PlateDetailPage({ params }: Props) {
   if (!work) notFound();
 
   const [mainImage, ...detailImages] = work.images;
-
   const isNumberOnly = work.title === work.number;
 
   return (
@@ -38,22 +37,18 @@ export default async function PlateDetailPage({ params }: Props) {
             WORK {work.number.toUpperCase()} / ENGRAVED PLATES
           </span>
 
-          <h1>
-            {work.title}
-          </h1>
+          <h1>{work.title}</h1>
 
           <p>Traditional Florentine Hand Engraving</p>
         </div>
 
-        <span className="artwork-year">
-          {work.year}
-        </span>
+        <span className="artwork-year">{work.year}</span>
       </div>
 
       <figure className="artwork-hero">
         <img
           src={mainImage}
-          alt={`${work.title} — hand-engraved brass plate`}
+          alt={`${work.title} — hand-engraved ${work.material}`}
         />
         <figcaption>01 / Overall view</figcaption>
       </figure>
@@ -62,25 +57,24 @@ export default async function PlateDetailPage({ params }: Props) {
         <div>
           <span className="index">THE WORK</span>
 
-        
-{work.description?.length ? (
-  work.description.map((paragraph, index) => (
-    <p key={index}>{paragraph}</p>
-  ))
-) : (
-  <>
-    <p>
-      {isNumberOnly
-        ? `A traditional Florentine hand-engraved brass plate, created in ${work.year}.`
-        : `${work.title} is a hand-engraved brass plate created in ${work.year}, using traditional Florentine engraving techniques.`}
-    </p>
-    <p>
-      The composition is executed by hand using a traditional
-      burin, with each line carefully cut into the metal surface.
-    </p>
-  </>
-)}
-
+          {work.description?.length ? (
+            work.description.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))
+          ) : (
+            <>
+              <p>
+                {isNumberOnly
+                  ? `A traditional Florentine hand-engraved work in ${work.material}, created in ${work.year}.`
+                  : `${work.title} is a hand-engraved work in ${work.material}, created in ${work.year}, using traditional Florentine engraving techniques.`}
+              </p>
+              <p>
+                The composition is executed by hand using a
+                traditional burin, with each line carefully
+                cut into the metal surface.
+              </p>
+            </>
+          )}
         </div>
 
         <dl>
@@ -96,9 +90,7 @@ export default async function PlateDetailPage({ params }: Props) {
 
           <div>
             <dt>Technique</dt>
-            <dd>
-              Traditional hand-push engraving with burin
-            </dd>
+            <dd>{work.technique}</dd>
           </div>
 
           <div>
@@ -108,6 +100,25 @@ export default async function PlateDetailPage({ params }: Props) {
         </dl>
       </div>
 
+      {work.video && (
+        <figure className="artwork-hero">
+          <video
+            controls
+            preload="metadata"
+            playsInline
+            style={{
+              display: "block",
+              width: "100%",
+              height: "auto",
+            }}
+          >
+            <source src={work.video} type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+          <figcaption>02 / Process &amp; Details — Film</figcaption>
+        </figure>
+      )}
+
       {detailImages.length > 0 && (
         <div className="artwork-gallery">
           {detailImages.map((src, index) => (
@@ -116,7 +127,6 @@ export default async function PlateDetailPage({ params }: Props) {
                 src={src}
                 alt={`${work.title} — engraved detail ${index + 1}`}
               />
-
               <figcaption>
                 {String(index + 2).padStart(2, "0")} / Details
               </figcaption>
