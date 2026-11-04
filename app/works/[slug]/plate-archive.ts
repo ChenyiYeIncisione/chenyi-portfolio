@@ -8,6 +8,7 @@ export type PlateArtwork = {
   artist: string;
   images: string[];
   description?: string[];
+  video?: string;
 };
 
 export const plateArchive: PlateArtwork[] = [
@@ -994,6 +995,72 @@ export const plateArchive: PlateArtwork[] = [
     ],
     description: [
       "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-74",
+    number: "No. 74",
+    title: "Portrait",
+    year: "2023",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-74-01.jpg",
+      "/images/plate-no-74-02.jpg",
+      "/images/plate-no-74-03.jpg",
+    ],
+    description: [
+      "A hand-engraved portrait study executed with a traditional burin, exploring expressive line work, tonal variation and the translation of a figurative subject into metal.",
+    ],
+  },
+  {
+    slug: "no-97",
+    number: "No. 97",
+    title: "God of Wealth",
+    year: "2023",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-97-01.jpg",
+      "/images/plate-no-97-02.jpg",
+      "/images/plate-no-97-03.jpg",
+    ],
+    description: [
+      "A figurative engraving depicting the God of Wealth, executed by hand with a traditional burin. The work explores the rendering of a symbolic subject through controlled cuts, tonal contrasts and fine details.",
+    ],
+  },
+  {
+    slug: "no-107",
+    number: "No. 107",
+    title: "No. 107",
+    year: "2023",
+    material: "Silver",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-107-01.jpg",
+    ],
+    video: "/videos/plate-no-107-02.mp4",
+    description: [
+      "A study of Florentine-style ornamental engraving on a silver plate, executed with a traditional hand-held burin. The work explores the interplay of finely cut lines, surface texture and reflected light.",
+    ],
+  },
+  {
+    slug: "no-108",
+    number: "No. 108",
+    title: "No. 108",
+    year: "2023",
+    material: "Silver",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-108-01.jpg",
+      "/images/plate-no-108-02.jpg",
+    ],
+    description: [
+      "A study of Florentine-style ornamental engraving on a silver plate, executed with a traditional hand-held burin. The work explores the interplay of finely cut lines, surface texture and reflected light.",
     ],
   },
 ];
