@@ -189,8 +189,6 @@ images: [
   },
   
   {
- 
-  {
     slug: "no-144",
     number: "No. 144",
     title: "No. 144",
