@@ -96,8 +96,6 @@ export const plateArchive: PlateArtwork[] = [
       "/images/plate-medieval-knight-05.jpg",
     ],
   },
-];
-
   {
     slug: "no-52",
     number: "No. 52",
