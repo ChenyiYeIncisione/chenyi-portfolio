@@ -779,7 +779,7 @@ export const plateArchive: PlateArtwork[] = [
     number: "No. 56",
     title: "No. 56",
     year: "2023",
-    material: "Stainless steel",
+    material: "Brass",
     technique: "Traditional hand-push engraving with burin",
     artist: "Chenyi Ye",
     images: [
@@ -809,7 +809,7 @@ export const plateArchive: PlateArtwork[] = [
     number: "No. 78",
     title: "No. 78",
     year: "2023",
-    material: "Stainless steel",
+    material: "Brass",
     technique: "Traditional hand-push engraving with burin",
     artist: "Chenyi Ye",
     images: [
@@ -841,7 +841,7 @@ export const plateArchive: PlateArtwork[] = [
     number: "No. 109",
     title: "No. 109",
     year: "2023",
-    material: "Stainless steel",
+    material: "Brass",
     technique: "Traditional hand-push engraving with burin",
     artist: "Chenyi Ye",
     images: [
@@ -862,6 +862,135 @@ export const plateArchive: PlateArtwork[] = [
     images: [
       "/images/plate-no-110-01.jpg",
       "/images/plate-no-110-02.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-80",
+    number: "No. 80",
+    title: "No. 80",
+    year: "2023",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-80-01.jpg",
+      "/images/plate-no-80-02.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-118",
+    number: "No. 118",
+    title: "No. 118",
+    year: "2023",
+    material: "Silver",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-118-01.jpg",
+      "/images/plate-no-118-02.jpg",
+    ],
+    description: [
+      "A study of traditional Florentine ornamental engraving on silver, combining rigato and contro bulino techniques. The interplay of closely spaced cuts and contrasting engraved lines creates texture, depth and subtle variations in reflected light.",
+    ],
+  },
+  {
+    slug: "no-122",
+    number: "No. 122",
+    title: "No. 122",
+    year: "2023",
+    material: "Silver",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-122-01.jpg",
+      "/images/plate-no-122-02.jpg",
+      "/images/plate-no-122-03.jpg",
+    ],
+    description: [
+      "A study of traditional Florentine ornamental engraving on silver, combining rigato and contro bulino techniques. The interplay of closely spaced cuts and contrasting engraved lines creates texture, depth and subtle variations in reflected light.",
+    ],
+  },
+  {
+    slug: "no-124-125",
+    number: "No. 124–125",
+    title: "No. 124–125",
+    year: "2023",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-124-125-01.jpg",
+      "/images/plate-no-124-125-02.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-130-131",
+    number: "No. 130–131",
+    title: "No. 130–131",
+    year: "2024",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-130-131-01.jpg",
+      "/images/plate-no-130-131-02.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-133",
+    number: "No. 133",
+    title: "No. 133",
+    year: "2024",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-133-01.jpg",
+      "/images/plate-no-133-02.jpg",
+      "/images/plate-no-133-03.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-137",
+    number: "No. 137",
+    title: "No. 137",
+    year: "2024",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-137-01.jpg",
+    ],
+    description: [
+      "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
+    ],
+  },
+  {
+    slug: "no-138",
+    number: "No. 138",
+    title: "No. 138",
+    year: "2024",
+    material: "Brass",
+    technique: "Traditional hand-push engraving with burin",
+    artist: "Chenyi Ye",
+    images: [
+      "/images/plate-no-138-01.jpg",
+      "/images/plate-no-138-02.jpg",
     ],
     description: [
       "A technical study of classical ornamental scrollwork, focusing on the precision and fluidity of curved lines. Executed with a traditional hand-held burin, the engraving explores line control, cutting depth and the rhythmic movement of decorative forms.",
