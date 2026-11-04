@@ -293,3 +293,24 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Engraved Plates: 3 columns on desktop and tablet */
+
+.artwork-index.plate-three-column {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 48px 28px;
+}
+
+.artwork-index.plate-three-column .artwork-index-card {
+  min-width: 0;
+}
+
+/* Mobile: 2 columns */
+
+@media (max-width: 600px) {
+  .artwork-index.plate-three-column {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 14px;
+  }
+}
