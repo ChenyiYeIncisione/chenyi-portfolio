@@ -149,10 +149,11 @@ export const plateArchive: PlateArtwork[] = [
     material: "Brass",
     technique: "Traditional hand-push engraving",
     artist: "Chenyi Ye",
-    images: [
-      "/images/plate-c-01.jpg",
-      "/images/plate-c-02.jpg",
-    ],
+images: [
+  "/images/plate-67letterc-01.jpg",
+  "/images/plate-67letterc-02.jpg",
+],
+
   },
   {
     slug: "no-105",
@@ -177,12 +178,12 @@ export const plateArchive: PlateArtwork[] = [
     material: "Brass",
     technique: "Traditional hand-push engraving",
     artist: "Chenyi Ye",
-    images: [
-      "/images/plate-portrait-01.jpg",
-      "/images/plate-portrait-02.jpg",
-      "/images/plate-portrait-03.jpg",
-      "/images/plate-portrait-04.jpg",
-      "/images/plate-portrait-05.jpg",
+   images: [
+  "/images/plate-47portrait-01.jpg",
+  "/images/plate-47portrait-02.jpg",
+  "/images/plate-47portrait-03.jpg",
+  "/images/plate-47portrait-04.jpg",
+  "/images/plate-47portrait-05.jpg",
     ],
   },
 ];
