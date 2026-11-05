@@ -187,5 +187,326 @@ export const decorativeArchive: DecorativeArtwork[] = [
     "videos": [],
     "cover": "/images/C-009-01.jpg",
     "order": 9
+  },
+  {
+    "slug": "l25-01",
+    "number": "L25-01",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Sapphire",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-01-01.jpg",
+      "/images/L25-01-02.jpg",
+      "/images/L25-01-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-01-01.jpg",
+    "order": 12
+  },
+  {
+    "slug": "l25-02",
+    "number": "L25-02",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Sapphire",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-02-01.jpg",
+      "/images/L25-02-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-02-01.jpg",
+    "order": 13
+  },
+  {
+    "slug": "l25-03",
+    "number": "L25-03",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-03-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-03-01.jpg",
+    "order": 14
+  },
+  {
+    "slug": "l25-05",
+    "number": "L25-05",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Amethyst",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-05-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-05-01.jpg",
+    "order": 15
+  },
+  {
+    "slug": "l25-06",
+    "number": "L25-06",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Tsavorite",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-06-01.jpg",
+      "/images/L25-06-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-06-01.jpg",
+    "order": 16
+  },
+  {
+    "slug": "l25-07",
+    "number": "L25-07",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Sapphire",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-07-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-07-01.jpg",
+    "order": 17
+  },
+  {
+    "slug": "l25-08",
+    "number": "L25-08",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Sapphire",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-08-01.jpg",
+      "/images/L25-08-02.jpg",
+      "/images/L25-08-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-08-01.jpg",
+    "order": 18
+  },
+  {
+    "slug": "l25-09",
+    "number": "L25-09",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Jadeite",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-09-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-09-01.jpg",
+    "order": 19
+  },
+  {
+    "slug": "l25-10",
+    "number": "L25-10",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Jadeite",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-10-01.jpg",
+      "/images/L25-10-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-10-01.jpg",
+    "order": 20
+  },
+  {
+    "slug": "l25-11",
+    "number": "L25-11",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Sapphire",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-11-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-11-01.jpg",
+    "order": 21
+  },
+  {
+    "slug": "l25-12",
+    "number": "L25-12",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Sapphire",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-12-01.jpg",
+      "/images/L25-12-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-12-01.jpg",
+    "order": 22
+  },
+  {
+    "slug": "l25-13",
+    "number": "L25-13",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Sapphire",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-13-01.jpg",
+      "/images/L25-13-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-13-01.jpg",
+    "order": 23
+  },
+  {
+    "slug": "l25-14",
+    "number": "L25-14",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2025",
+    "material": "Silver, Opal",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L25-14-01.jpg",
+      "/images/L25-14-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L25-14-01.jpg",
+    "order": 24
+  },
+  {
+    "slug": "l26-01",
+    "number": "L26-01",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2026",
+    "material": "Silver",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L26-01-01.jpg",
+      "/images/L26-01-02.jpg",
+      "/images/L26-01-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L26-01-01.jpg",
+    "order": 11
+  },
+  {
+    "slug": "l26-02",
+    "number": "L26-02",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2026",
+    "material": "Silver, Sapphire",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L26-02-01.jpg",
+      "/images/L26-02-02.jpg",
+      "/images/L26-02-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L26-02-01.jpg",
+    "order": 10
+  },
+  {
+    "slug": "l26-03",
+    "number": "L26-03",
+    "title": "Hand-Engraved Photo Locket",
+    "category": "Decorative Objects",
+    "year": "2026",
+    "material": "Silver",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
+    ],
+    "images": [
+      "/images/L26-03-01.jpg",
+      "/images/L26-03-02.jpg",
+      "/images/L26-03-03.jpg",
+      "/images/L26-03-04.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/L26-03-01.jpg",
+    "order": 9
   }
 ];
