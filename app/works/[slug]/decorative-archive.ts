@@ -201,12 +201,12 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-01-01.jpg",
-      "/images/L25-01-02.jpg",
-      "/images/L25-01-03.jpg"
+      "/images/L-25-01-01.jpg",
+      "/images/L-25-01-02.jpg",
+      "/images/L-25-01-03.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-01-01.jpg",
+    "cover": "/images/L-25-01-01.jpg",
     "order": 12
   },
   {
@@ -222,11 +222,11 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-02-01.jpg",
-      "/images/L25-02-02.jpg"
+      "/images/L-25-02-01.jpg",
+      "/images/L-25-02-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-02-01.jpg",
+    "cover": "/images/L-25-02-01.jpg",
     "order": 13
   },
   {
@@ -242,10 +242,10 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-03-01.jpg"
+      "/images/L-25-03-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-03-01.jpg",
+    "cover": "/images/L-25-03-01.jpg",
     "order": 14
   },
   {
@@ -261,10 +261,10 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-05-01.jpg"
+      "/images/L-25-05-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-05-01.jpg",
+    "cover": "/images/L-25-05-01.jpg",
     "order": 15
   },
   {
@@ -280,11 +280,11 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-06-01.jpg",
-      "/images/L25-06-02.jpg"
+      "/images/L-25-06-01.jpg",
+      "/images/L-25-06-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-06-01.jpg",
+    "cover": "/images/L-25-06-01.jpg",
     "order": 16
   },
   {
@@ -300,10 +300,10 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-07-01.jpg"
+      "/images/L-25-07-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-07-01.jpg",
+    "cover": "/images/L-25-07-01.jpg",
     "order": 17
   },
   {
@@ -319,12 +319,12 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-08-01.jpg",
-      "/images/L25-08-02.jpg",
-      "/images/L25-08-03.jpg"
+      "/images/L-25-08-01.jpg",
+      "/images/L-25-08-02.jpg",
+      "/images/L-25-08-03.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-08-01.jpg",
+    "cover": "/images/L-25-08-01.jpg",
     "order": 18
   },
   {
@@ -340,10 +340,10 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-09-01.jpg"
+      "/images/L-25-09-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-09-01.jpg",
+    "cover": "/images/L-25-09-01.jpg",
     "order": 19
   },
   {
@@ -359,11 +359,11 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-10-01.jpg",
-      "/images/L25-10-02.jpg"
+      "/images/L-25-10-01.jpg",
+      "/images/L-25-10-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-10-01.jpg",
+    "cover": "/images/L-25-10-01.jpg",
     "order": 20
   },
   {
@@ -379,10 +379,10 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-11-01.jpg"
+      "/images/L-25-11-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-11-01.jpg",
+    "cover": "/images/L-25-11-01.jpg",
     "order": 21
   },
   {
@@ -398,11 +398,11 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-12-01.jpg",
-      "/images/L25-12-02.jpg"
+      "/images/L-25-12-01.jpg",
+      "/images/L-25-12-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-12-01.jpg",
+    "cover": "/images/L-25-12-01.jpg",
     "order": 22
   },
   {
@@ -418,11 +418,11 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-13-01.jpg",
-      "/images/L25-13-02.jpg"
+      "/images/L-25-13-01.jpg",
+      "/images/L-25-13-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-13-01.jpg",
+    "cover": "/images/L-25-13-01.jpg",
     "order": 23
   },
   {
@@ -438,11 +438,11 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L25-14-01.jpg",
-      "/images/L25-14-02.jpg"
+      "/images/L-25-14-01.jpg",
+      "/images/L-25-14-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/L25-14-01.jpg",
+    "cover": "/images/L-25-14-01.jpg",
     "order": 24
   },
   {
@@ -458,12 +458,12 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L26-01-01.jpg",
-      "/images/L26-01-02.jpg",
-      "/images/L26-01-03.jpg"
+      "/images/L-26-01-01.jpg",
+      "/images/L-26-01-02.jpg",
+      "/images/L-26-01-03.jpg"
     ],
     "videos": [],
-    "cover": "/images/L26-01-01.jpg",
+    "cover": "/images/L-26-01-01.jpg",
     "order": 11
   },
   {
@@ -479,12 +479,12 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L26-02-01.jpg",
-      "/images/L26-02-02.jpg",
-      "/images/L26-02-03.jpg"
+      "/images/L-26-02-01.jpg",
+      "/images/L-26-02-02.jpg",
+      "/images/L-26-02-03.jpg"
     ],
     "videos": [],
-    "cover": "/images/L26-02-01.jpg",
+    "cover": "/images/L-26-02-01.jpg",
     "order": 10
   },
   {
@@ -500,13 +500,13 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L26-03-01.jpg",
-      "/images/L26-03-02.jpg",
-      "/images/L26-03-03.jpg",
-      "/images/L26-03-04.jpg"
+      "/images/L-26-03-01.jpg",
+      "/images/L-26-03-02.jpg",
+      "/images/L-26-03-03.jpg",
+      "/images/L-26-03-04.jpg"
     ],
     "videos": [],
-    "cover": "/images/L26-03-01.jpg",
+    "cover": "/images/L-26-03-01.jpg",
     "order": 9
   }
 ];
