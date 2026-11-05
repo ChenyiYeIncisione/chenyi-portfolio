@@ -4,10 +4,9 @@ import { useState } from "react";
 import Link from "next/link";
 import type { JewelleryArtwork } from "./jewellery-archive";
 
-type Category = "All Works" | "Rings" | "Wedding Bands" | "Pendants & Necklaces" | "Earrings" | "Others";
+type Category = "Rings" | "Wedding Bands" | "Pendants & Necklaces" | "Earrings" | "Others";
 
 const categories: Category[] = [
-  "All Works",
   "Rings",
   "Wedding Bands",
   "Pendants & Necklaces",
@@ -16,9 +15,9 @@ const categories: Category[] = [
 ];
 
 export default function JewelleryFilter({ artworks }: { artworks: JewelleryArtwork[] }) {
-  const [active, setActive] = useState<Category>("All Works");
+  const [active, setActive] = useState<Category>("Rings");
   const visible = [...artworks]
-    .filter((artwork) => active === "All Works" || artwork.category === active)
+    .filter((artwork) => artwork.category === active)
     .sort((a, b) => a.order - b.order);
 
   return (
