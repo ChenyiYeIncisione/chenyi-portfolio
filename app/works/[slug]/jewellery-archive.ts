@@ -561,5 +561,27 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "videos": [],
     "cover": "/images/JW-W-007-01.jpg",
     "order": 106
+  },
+  {
+    "slug": "c-005",
+    "number": "C-005",
+    "title": "Violet Whistling Thrush Brooch",
+    "category": "Others",
+    "year": "2026",
+    "material": "18K Yellow Gold, Amethyst",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K yellow gold brooch depicting a violet whistling thrush, with sculptural hand-engraved plumage and an amethyst setting framed by classical ornament."
+    ],
+    "images": [
+      "/images/C-005-01.jpg",
+      "/images/C-005-02.jpg",
+      "/images/C-005-03.jpg",
+      "/images/C-005-04.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/C-005-01.jpg",
+    "order": 5
   }
 ];
