@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import type { JewelleryArtwork } from "./jewellery-archive";
 
@@ -13,8 +13,47 @@ const categories: Category[] = [
   "Others",
 ];
 
+const storageKey = "jewellery-return-position";
+
+function isCategory(value: string | null): value is Category {
+  return categories.some((category) => category === value);
+}
+
 export default function JewelleryFilter({ artworks }: { artworks: JewelleryArtwork[] }) {
   const [active, setActive] = useState<Category>("Wedding Bands");
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    const query = new URLSearchParams(window.location.search);
+    const category = query.get("category");
+    if (isCategory(category)) setActive(category);
+    setReady(true);
+  }, []);
+
+  useEffect(() => {
+    if (!ready) return;
+    const query = new URLSearchParams(window.location.search);
+    const focus = query.get("focus");
+    const category = query.get("category");
+    if (!focus || category !== active) return;
+
+    const frame = window.requestAnimationFrame(() => {
+      let saved: { slug?: string; category?: string; y?: number } | null = null;
+      try {
+        const raw = window.sessionStorage.getItem(storageKey);
+        saved = raw ? JSON.parse(raw) : null;
+      } catch {
+        // Browsers may disable session storage; the card anchor still works.
+      }
+      if (saved?.slug === focus && saved.category === active && typeof saved.y === "number") {
+        window.scrollTo({ top: saved.y, behavior: "instant" });
+      } else {
+        document.getElementById(`jewellery-${focus}`)?.scrollIntoView({ block: "center" });
+      }
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [active, ready]);
+
   const visible = [...artworks]
     .filter((artwork) =>
       active === "Others"
@@ -30,7 +69,10 @@ export default function JewelleryFilter({ artworks }: { artworks: JewelleryArtwo
           <button
             key={category}
             type="button"
-            onClick={() => setActive(category)}
+            onClick={() => {
+              setActive(category);
+              window.history.replaceState(null, "", `/works/jewellery?category=${encodeURIComponent(category)}`);
+            }}
             aria-pressed={active === category}
             style={{
               border: "none",
@@ -53,7 +95,23 @@ export default function JewelleryFilter({ artworks }: { artworks: JewelleryArtwo
       {visible.length > 0 ? (
         <div className="artwork-index plate-three-column">
           {visible.map((artwork) => (
-            <Link key={artwork.slug} className="artwork-index-card" href={`/works/jewellery/${artwork.slug}`}>
+            <Link
+              key={artwork.slug}
+              id={`jewellery-${artwork.slug}`}
+              className="artwork-index-card"
+              href={`/works/jewellery/${artwork.slug}?category=${encodeURIComponent(active)}`}
+              onClick={() => {
+                try {
+                  window.sessionStorage.setItem(storageKey, JSON.stringify({
+                    slug: artwork.slug,
+                    category: active,
+                    y: window.scrollY,
+                  }));
+                } catch {
+                  // Navigation still works without storage.
+                }
+              }}
+            >
               <div className="image-wrap">
                 {artwork.cover || artwork.images[0] ? (
                   <img src={artwork.cover || artwork.images[0]} alt={`${artwork.title} — ${artwork.material}`} />
