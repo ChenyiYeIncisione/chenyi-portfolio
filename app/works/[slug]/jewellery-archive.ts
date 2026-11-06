@@ -18,7 +18,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-w-009",
     "number": "JW-W-009",
-    "title": "Two-Tone Wedding Bands",
+    "title": "Two-Tone",
     "category": "Wedding Bands",
     "year": "2024",
     "material": "18K Rose Gold",
@@ -36,7 +36,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-w-003",
     "number": "JW-W-003",
-    "title": "Rose Engraved Wedding Bands",
+    "title": "Engraved Rose",
     "category": "Wedding Bands",
     "year": "2025",
     "material": "18K Yellow Gold",
@@ -55,7 +55,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-w-001",
     "number": "JW-W-001",
-    "title": "Classical Engraved Wedding Bands",
+    "title": "Classical Engraving I",
     "category": "Wedding Bands",
     "year": "2024",
     "material": "Silver",
@@ -75,7 +75,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-w-002",
     "number": "JW-W-002",
-    "title": "Classical Engraved Wedding Bands",
+    "title": "Classical Engraving II",
     "category": "Wedding Bands",
     "year": "2024",
     "material": "Silver",
@@ -95,7 +95,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-w-004",
     "number": "JW-W-004",
-    "title": "Sun and Moon Wedding Bands",
+    "title": "Sun & Moon",
     "category": "Wedding Bands",
     "year": "2024",
     "material": "18K White Gold",
@@ -155,7 +155,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-w-008",
     "number": "JW-W-008",
-    "title": "Chinchilla Wedding Bands",
+    "title": "Chinchilla Engagement Ring",
     "category": "Rings",
     "year": "2025",
     "material": "18K White Gold",
@@ -364,7 +364,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-w-005",
     "number": "JW-W-005",
-    "title": "Ruby-Set Wedding Bands",
+    "title": "Ruby Engagement Ring",
     "category": "Rings",
     "year": "2024",
     "material": "18K Yellow Gold",
@@ -384,7 +384,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-w-006",
     "number": "JW-W-006",
-    "title": "Emerald-Set Wedding Bands",
+    "title": "Emerald Engagement Ring",
     "category": "Rings",
     "year": "2024",
     "material": "18K Yellow Gold",
