@@ -707,5 +707,191 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "videos": [],
     "cover": "/images/JW-B-001-01.jpg",
     "order": 2
+  },
+  {
+    "slug": "jw-r-014",
+    "number": "JW-R-014",
+    "title": "Aquamarine Openwork Engagement Ring",
+    "category": "Rings",
+    "year": "2025",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K white gold engagement ring featuring openwork hand engraving and an aquamarine setting."
+    ],
+    "images": [
+      "/images/JW-R-014-01.jpg",
+      "/images/JW-R-014-02.jpg",
+      "/images/JW-R-014-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-014-01.jpg",
+    "order": 18
+  },
+  {
+    "slug": "jw-r-015",
+    "number": "JW-R-015",
+    "title": "Ruby Feather and Vine Engagement Ring",
+    "category": "Rings",
+    "year": "2026",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K white gold engagement ring set with a ruby, featuring sculptural feather and vine motifs along the band, finished with traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-R-015-01.jpg"
+    ],
+    "videos": [
+      "/images/JW-R-015-02.MP4"
+    ],
+    "cover": "/images/JW-R-015-01.jpg",
+    "order": 19
+  },
+  {
+    "slug": "jw-r-016",
+    "number": "JW-R-016",
+    "title": "Tsavorite Ring",
+    "category": "Rings",
+    "year": "2025",
+    "material": "Silver, Tsavorite Garnet",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A silver ring set with a tsavorite garnet."
+    ],
+    "images": [
+      "/images/JW-R-016-01.jpg",
+      "/images/JW-R-016-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-016-01.jpg",
+    "order": 20
+  },
+  {
+    "slug": "jw-r-017",
+    "number": "JW-R-017",
+    "title": "Diamond Openwork Engagement Ring",
+    "category": "Rings",
+    "year": "2026",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K white gold engagement ring featuring openwork hand engraving and a diamond setting."
+    ],
+    "images": [
+      "/images/JW-R-017-01.jpg",
+      "/images/JW-R-017-02.jpg",
+      "/images/JW-R-017-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-017-01.jpg",
+    "order": 21
+  },
+  {
+    "slug": "jw-r-018",
+    "number": "JW-R-018",
+    "title": "Aquamarine Openwork Engagement Ring",
+    "category": "Rings",
+    "year": "2026",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K white gold engagement ring featuring openwork hand engraving and an aquamarine setting."
+    ],
+    "images": [
+      "/images/JW-R-018-01.jpg",
+      "/images/JW-R-018-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-018-01.jpg",
+    "order": 22
+  },
+  {
+    "slug": "jw-r-019",
+    "number": "JW-R-019",
+    "title": "Floral Vine Aquamarine Ring",
+    "category": "Rings",
+    "year": "2026",
+    "material": "18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K yellow gold engagement ring set with an aquamarine, featuring sculptural vine and floral details along the band."
+    ],
+    "images": [
+      "/images/JW-R-019-01.jpg",
+      "/images/JW-R-019-02.jpg",
+      "/images/JW-R-019-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-019-01.jpg",
+    "order": 23
+  },
+  {
+    "slug": "jw-r-020",
+    "number": "JW-R-020",
+    "title": "Iris Sapphire Engagement Ring",
+    "category": "Rings",
+    "year": "2026",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K white gold engagement ring set with a blue-violet sapphire, featuring sculptural iris motifs along the band."
+    ],
+    "images": [
+      "/images/JW-R-020-01.jpg",
+      "/images/JW-R-020-02.jpg",
+      "/images/JW-R-020-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-020-01.jpg",
+    "order": 24
+  },
+  {
+    "slug": "jw-r-021",
+    "number": "JW-R-021",
+    "title": "Sapphire Engagement Ring",
+    "category": "Rings",
+    "year": "2026",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K white gold sapphire engagement ring developed through a collaborative making process: the client hand-carved the wax model, and Chenyi Ye completed the metal engraving."
+    ],
+    "images": [
+      "/images/JW-R-021-01.jpg",
+      "/images/JW-R-021-02.jpg",
+      "/images/JW-R-021-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-021-01.jpg",
+    "order": 25
+  },
+  {
+    "slug": "jw-r-022",
+    "number": "JW-R-022",
+    "title": "South Sea Golden Pearl Ring",
+    "category": "Rings",
+    "year": "2025",
+    "material": "18K White Gold, 18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An openwork ring in 18K white and yellow gold, set with a South Sea golden pearl and finished with traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-R-022-01.jpg",
+      "/images/JW-R-022-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-022-01.jpg",
+    "order": 26
   }
 ];
