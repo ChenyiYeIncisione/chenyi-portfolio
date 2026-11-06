@@ -2,23 +2,33 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { jewelleryArchive } from "../../[slug]/jewellery-archive";
 
-type Props = { params: Promise<{ artwork: string }> };
+type Props = {
+  params: Promise<{ artwork: string }>;
+  searchParams: Promise<{ category?: string }>;
+};
+
+const categories = ["Wedding Bands", "Rings", "Pendants & Necklaces", "Others"];
 
 export function generateStaticParams() {
   return jewelleryArchive.map((work) => ({ artwork: work.slug }));
 }
 
-export default async function JewelleryDetailPage({ params }: Props) {
+export default async function JewelleryDetailPage({ params, searchParams }: Props) {
   const { artwork } = await params;
   const work = jewelleryArchive.find((item) => item.slug === artwork);
   if (!work) notFound();
+
+  const { category: fromCategory } = await searchParams;
+  const fallbackCategory = categories.includes(work.category) ? work.category : "Others";
+  const category = fromCategory && categories.includes(fromCategory) ? fromCategory : fallbackCategory;
+  const backHref = `/works/jewellery?category=${encodeURIComponent(category)}&focus=${encodeURIComponent(work.slug)}`;
 
   const [mainImage, ...detailImages] = work.images;
   const videos = work.videos || [];
 
   return (
     <main className="interior artwork-page">
-      <Link className="breadcrumb" href="/works/jewellery">← Jewellery</Link>
+      <Link className="breadcrumb" href={backHref}>← {category}</Link>
 
       <div className="artwork-head">
         <div>
@@ -81,7 +91,7 @@ export default async function JewelleryDetailPage({ params }: Props) {
         </div>
       )}
 
-      <Link className="breadcrumb" href="/works/jewellery">← Back to Jewellery</Link>
+      <Link className="breadcrumb" href={backHref}>← Back to {category}</Link>
     </main>
   );
 }
