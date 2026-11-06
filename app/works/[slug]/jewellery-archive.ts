@@ -893,5 +893,46 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "videos": [],
     "cover": "/images/JW-R-022-01.jpg",
     "order": 26
+  },
+  {
+    "slug": "jw-r-023",
+    "number": "JW-R-023",
+    "title": "Pink Sapphire Engagement Ring",
+    "category": "Rings",
+    "year": "2025",
+    "material": "18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K yellow gold engagement ring set with a pink sapphire, featuring sculptural vine motifs hand-engraved along the band."
+    ],
+    "images": [
+      "/images/JW-R-023-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-023-01.jpg",
+    "order": 27
+  },
+  {
+    "slug": "jw-r-024",
+    "number": "JW-R-024",
+    "title": "Personalised Portrait Ring",
+    "category": "Rings",
+    "year": "2025",
+    "material": "18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A bespoke 18K yellow gold ring hand-engraved with a portrait outline based on a photograph provided by the client, alongside a personalised numerical inscription."
+    ],
+    "images": [
+      "/images/JW-R-024-01.jpg",
+      "/images/JW-R-024-02.jpg"
+    ],
+    "videos": [
+      "/videos/JW-R-024-03.mp4"
+    ],
+    "cover": null,
+    "order": 28
   }
 ];
