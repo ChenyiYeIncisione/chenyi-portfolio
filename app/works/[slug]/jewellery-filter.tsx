@@ -130,7 +130,7 @@ export default function JewelleryFilter({ artworks }: { artworks: JewelleryArtwo
               </div>
               <span className="index">{artwork.number.toUpperCase()} · {artwork.year}</span>
               <h2>{artwork.title} <span>↗</span></h2>
-              <p>{artwork.material} · {artwork.category}</p>
+              <p>{artwork.material}</p>
             </Link>
           ))}
         </div>
