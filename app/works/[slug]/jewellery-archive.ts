@@ -406,7 +406,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "slug": "jw-w-007",
     "number": "JW-W-007",
     "title": "Diamond-Set Wedding Bands",
-    "category": "Rings",
+    "category": "Wedding Bands",
     "year": "2025",
     "material": "18K White Gold",
     "technique": "Traditional hand engraving with burin",
