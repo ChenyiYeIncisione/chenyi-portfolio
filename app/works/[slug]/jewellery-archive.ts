@@ -14,7 +14,7 @@ export type JewelleryArtwork = {
   order: number;
 };
 
-export const jewelleryArchive: JewelleryArtwork[] = [
+export const jewelleryArchive: JewelleryArtwork[
   {
     "slug": "jw-r-010",
     "number": "JW-R-010",
@@ -358,7 +358,8 @@ export const jewelleryArchive: JewelleryArtwork[] = [
       "A silver signet pendant from the Nine-Coloured Deer series, inspired by the Dunhuang murals and depicting a deer through traditional hand engraving."
     ],
     "images": [
-      "/images/JW-P-005-01.jpg"
+      "/images/JW-P-005-01.jpg",
+      "/images/JW-P-005-02.jpg"
     ],
     "videos": [],
     "cover": "/images/JW-P-005-01.jpg",
@@ -405,7 +406,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "slug": "jw-w-008",
     "number": "JW-W-008",
     "title": "Chinchilla Wedding Bands",
-    "category": "Wedding Bands",
+    "category": "Rings",
     "year": "2025",
     "material": "18K White Gold",
     "technique": "Traditional hand engraving with burin",
@@ -420,7 +421,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-W-008-01.jpg",
-    "order": 2
+    "order": 17
   },
   {
     "slug": "jw-w-003",
@@ -505,7 +506,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "slug": "jw-w-005",
     "number": "JW-W-005",
     "title": "Ruby-Set Wedding Bands",
-    "category": "Wedding Bands",
+    "category": "Rings",
     "year": "2024",
     "material": "18K Yellow Gold",
     "technique": "Traditional hand engraving with burin, rigato",
@@ -519,13 +520,13 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-W-005-01.jpg",
-    "order": 104
+    "order": 14
   },
   {
     "slug": "jw-w-006",
     "number": "JW-W-006",
     "title": "Emerald-Set Wedding Bands",
-    "category": "Wedding Bands",
+    "category": "Rings",
     "year": "2024",
     "material": "18K Yellow Gold",
     "technique": "Traditional hand engraving with burin",
@@ -540,13 +541,13 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-W-006-01.jpg",
-    "order": 105
+    "order": 15
   },
   {
     "slug": "jw-w-007",
     "number": "JW-W-007",
     "title": "Diamond-Set Wedding Bands",
-    "category": "Wedding Bands",
+    "category": "Rings",
     "year": "2025",
     "material": "18K White Gold",
     "technique": "Traditional hand engraving with burin",
@@ -560,7 +561,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-W-007-01.jpg",
-    "order": 106
+    "order": 16
   },
   {
     "slug": "c-005",
@@ -583,5 +584,86 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "videos": [],
     "cover": "/images/C-005-01.jpg",
     "order": 5
+  },
+  {
+    "slug": "jw-r-011",
+    "number": "JW-R-011",
+    "title": "Lucky Horseshoe Signet Ring",
+    "category": "Rings",
+    "year": "2026",
+    "material": "18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K yellow gold signet ring featuring a lucky horseshoe motif, with hand-engraved lettering and ornamental details along the sides."
+    ],
+    "images": [
+      "/images/JW-R-011-01.jpg",
+      "/images/JW-R-011-02.jpg",
+      "/images/JW-R-011-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-011-01.jpg",
+    "order": 11
+  },
+  {
+    "slug": "jw-r-012",
+    "number": "JW-R-012",
+    "title": "Paraiba Engagement Ring",
+    "category": "Rings",
+    "year": "2024",
+    "material": "18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K yellow gold engagement ring featuring openwork hand engraving and a Paraiba gemstone."
+    ],
+    "images": [
+      "/images/JW-R-012-01.jpg",
+      "/images/JW-R-012-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-012-01.jpg",
+    "order": 12
+  },
+  {
+    "slug": "jw-r-013",
+    "number": "JW-R-013",
+    "title": "Diamond Engagement Ring",
+    "category": "Rings",
+    "year": "2025",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K white gold engagement ring set with a one-carat diamond, featuring classical hand-engraved motifs along the band."
+    ],
+    "images": [
+      "/images/JW-R-013-01.jpg",
+      "/images/JW-R-013-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-R-013-01.jpg",
+    "order": 13
+  },
+  {
+    "slug": "jw-p-009",
+    "number": "JW-P-009",
+    "title": "Knight’s Shield Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2025",
+    "material": "Silver, Sapphire",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "Inspired by a knight’s armour and shield, this silver pendant features a red sapphire and finely hand-engraved surface textures."
+    ],
+    "images": [
+      "/images/JW-P-009-01.jpg",
+      "/images/JW-P-009-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-009-01.jpg",
+    "order": 9
   }
 ];
