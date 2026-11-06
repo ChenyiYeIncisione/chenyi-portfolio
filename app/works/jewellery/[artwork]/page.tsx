@@ -25,6 +25,7 @@ export default async function JewelleryDetailPage({ params, searchParams }: Prop
 
   const [mainImage, ...detailImages] = work.images;
   const videos = work.videos || [];
+  const videoFirst = work.number === "JW-R-024" && videos.length > 0;
 
   return (
     <main className="interior artwork-page">
@@ -39,10 +40,20 @@ export default async function JewelleryDetailPage({ params, searchParams }: Prop
         <span className="artwork-year">{work.year}</span>
       </div>
 
+      {videoFirst && (
+        <figure className="artwork-hero">
+          <video controls playsInline preload="metadata" style={{ display: "block", width: "100%", height: "auto" }}>
+            <source src={videos[0]} type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+          <figcaption>01 / Film</figcaption>
+        </figure>
+      )}
+
       {mainImage && (
         <figure className="artwork-hero">
           <img src={mainImage} alt={`${work.title} — ${work.material}`} />
-          <figcaption>01 / Overall view</figcaption>
+          <figcaption>{videoFirst ? "02" : "01"} / Overall view</figcaption>
         </figure>
       )}
 
@@ -61,7 +72,7 @@ export default async function JewelleryDetailPage({ params, searchParams }: Prop
         </dl>
       </div>
 
-      {videos.map((src, index) => (
+      {(videoFirst ? videos.slice(1) : videos).map((src, index) => (
         <figure className="artwork-hero" key={src}>
           <video
             controls
@@ -73,7 +84,7 @@ export default async function JewelleryDetailPage({ params, searchParams }: Prop
             Your browser does not support HTML5 video.
           </video>
           <figcaption>
-            {String((mainImage ? 2 : 1) + index).padStart(2, "0")} / Film
+            {String((mainImage ? 3 : 2) + index).padStart(2, "0")} / Film
           </figcaption>
         </figure>
       ))}
