@@ -665,5 +665,47 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "videos": [],
     "cover": "/images/JW-P-009-01.jpg",
     "order": 9
+  },
+  {
+    "slug": "jw-p-010",
+    "number": "JW-P-010",
+    "title": "Peace Buckle Pendant",
+    "category": "Pendants & Necklaces",
+    "year": "2026",
+    "material": "18K Yellow Gold, Diamond",
+    "technique": "Traditional hand engraving with burin, rigato",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K yellow gold peace buckle pendant featuring finely engraved rigato texture across the circular metal surface, with a 0.20-carat diamond set at its centre."
+    ],
+    "images": [
+      "/images/JW-P-010-01.jpg",
+      "/images/JW-P-010-02.jpg",
+      "/images/JW-P-010-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-010-01.jpg",
+    "order": 10
+  },
+  {
+    "slug": "jw-b-001",
+    "number": "JW-B-001",
+    "title": "Spessartite Garnet Bracelet",
+    "category": "Others",
+    "year": "2026",
+    "material": "18K Yellow Gold, Spessartite Garnet",
+    "technique": "Traditional hand engraving with burin, rigato",
+    "artist": "Chenyi Ye",
+    "description": [
+      "An 18K yellow gold bracelet featuring a spessartite garnet framed by radiating rigato engraving, evoking rays of sunlight around the gemstone."
+    ],
+    "images": [
+      "/images/JW-B-001-01.jpg",
+      "/images/JW-B-001-02.jpg",
+      "/images/JW-B-001-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-B-001-01.jpg",
+    "order": 6
   }
 ];
