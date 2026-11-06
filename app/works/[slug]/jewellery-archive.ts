@@ -171,7 +171,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-W-008-01.jpg",
-    "order": 3
+    "order": 8
   },
   {
     "slug": "jw-r-008",
@@ -191,7 +191,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-R-008-01.jpg",
-    "order": 4
+    "order": 3
   },
   {
     "slug": "jw-r-010",
@@ -213,7 +213,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-R-010-01.jpg",
-    "order": 5
+    "order": 4
   },
   {
     "slug": "jw-r-009",
@@ -233,7 +233,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-R-009-01.jpg",
-    "order": 6
+    "order": 5
   },
   {
     "slug": "jw-r-011",
@@ -254,7 +254,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-R-011-01.jpg",
-    "order": 7
+    "order": 6
   },
   {
     "slug": "jw-r-001",
@@ -274,7 +274,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-R-001-01.jpg",
-    "order": 8
+    "order": 7
   },
   {
     "slug": "jw-r-005",
@@ -519,7 +519,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-003-01.jpg",
-    "order": 3
+    "order": 10
   },
   {
     "slug": "jw-p-008",
@@ -539,7 +539,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-008-01.jpg",
-    "order": 4
+    "order": 8
   },
   {
     "slug": "jw-p-010",
@@ -560,7 +560,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-010-01.jpg",
-    "order": 5
+    "order": 9
   },
   {
     "slug": "jw-p-004",
@@ -581,7 +581,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-004-01.jpg",
-    "order": 6
+    "order": 7
   },
   {
     "slug": "jw-p-001",
@@ -602,7 +602,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-001-01.jpg",
-    "order": 7
+    "order": 3
   },
   {
     "slug": "jw-p-007",
@@ -622,7 +622,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-007-01.jpg",
-    "order": 8
+    "order": 4
   },
   {
     "slug": "jw-p-009",
@@ -642,7 +642,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-009-01.jpg",
-    "order": 9
+    "order": 5
   },
   {
     "slug": "jw-p-002",
@@ -663,7 +663,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/JW-P-002-01.jpg",
-    "order": 10
+    "order": 6
   },
   {
     "slug": "c-005",
