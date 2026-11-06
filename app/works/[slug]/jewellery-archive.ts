@@ -930,7 +930,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
       "/images/JW-R-024-02.jpg"
     ],
     "videos": [
-      "/videos/JW-R-024-03.mp4"
+      "/videos/JW-R-024-03.MP4 "
     ],
     "cover": null,
     "order": 28
