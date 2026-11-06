@@ -14,7 +14,7 @@ export type JewelleryArtwork = {
   order: number;
 };
 
-export const jewelleryArchive: JewelleryArtwork[
+export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-r-010",
     "number": "JW-R-010",
