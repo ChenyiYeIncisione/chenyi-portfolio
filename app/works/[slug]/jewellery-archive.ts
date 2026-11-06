@@ -711,7 +711,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-r-014",
     "number": "JW-R-014",
-    "title": "Aquamarine Openwork Engagement Ring",
+    "title": "Aquamarine Engagement Ring",
     "category": "Rings",
     "year": "2025",
     "material": "18K White Gold",
@@ -773,7 +773,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-r-017",
     "number": "JW-R-017",
-    "title": "Diamond Openwork Engagement Ring",
+    "title": "Diamond Engagement Ring",
     "category": "Rings",
     "year": "2026",
     "material": "18K White Gold",
@@ -794,7 +794,7 @@ export const jewelleryArchive: JewelleryArtwork[] = [
   {
     "slug": "jw-r-018",
     "number": "JW-R-018",
-    "title": "Aquamarine Openwork Engagement Ring",
+    "title": "Aquamarine Engagement Ring",
     "category": "Rings",
     "year": "2026",
     "material": "18K White Gold",
