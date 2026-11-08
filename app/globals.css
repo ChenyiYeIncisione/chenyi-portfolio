@@ -329,3 +329,16 @@
   font-size: 15px;
   margin-left: 6px;
 }
+
+/* Jewellery category navigation — larger typography */
+@media (min-width: 751px) {
+  .detail nav button {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .detail nav button {
+    font-size: 17px !important;
+  }
+}
