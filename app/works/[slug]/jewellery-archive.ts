@@ -128,7 +128,9 @@ export const jewelleryArchive: JewelleryArtwork[] = [
       "18K yellow gold wedding bands with hand-engraved rose motifs and a rigato-textured ground."
     ],
     "images": [
-      "/images/JW-W-003-01.jpg"
+      "/images/JW-W-003-01.jpg",
+      "/images/JW-W-003-02.jpg",
+      "/images/JW-W-003-03.jpg"
     ],
     "videos": [],
     "cover": "/images/JW-W-003-01.jpg",
@@ -1396,5 +1398,211 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "cover": "/images/JW-W-032-01.jpg",
     "order": 29
+  },
+  {
+    "slug": "jw-w-033",
+    "number": "JW-W-033",
+    "title": "Rose II",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K White Gold, Diamond",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of 18K white gold wedding bands with hand-engraved rose motifs and diamond accents."
+    ],
+    "images": [
+      "/images/JW-W-033-01.jpg",
+      "/images/JW-W-033-02.jpg",
+      "/images/JW-W-033-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-033-01.jpg",
+    "order": 30
+  },
+  {
+    "slug": "jw-w-034",
+    "number": "JW-W-034",
+    "title": "Emerald & Ornament",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K Yellow Gold, Emeralds",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K yellow gold wedding bands set with emeralds and decorated with classical hand-engraved ornamentation."
+    ],
+    "images": [
+      "/images/JW-W-034-01.jpg",
+      "/images/JW-W-034-02.jpg",
+      "/images/JW-W-034-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-034-01.jpg",
+    "order": 31
+  },
+  {
+    "slug": "jw-w-035",
+    "number": "JW-W-035",
+    "title": "Classical Ornament III",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K Yellow Gold, Ruby",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of 18K yellow gold wedding bands featuring classical hand-engraved patterns and ruby accents."
+    ],
+    "images": [
+      "/images/JW-W-035-01.jpg",
+      "/images/JW-W-035-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-035-01.jpg",
+    "order": 32
+  },
+  {
+    "slug": "jw-w-036",
+    "number": "JW-W-036",
+    "title": "JoJo's Adventure",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K Yellow Gold, Sapphires",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K yellow gold wedding bands featuring a design inspired by JoJo’s Adventure, with sapphire accents and hand engraving."
+    ],
+    "images": [
+      "/images/JW-W-036-01.jpg",
+      "/images/JW-W-036-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-036-01.jpg",
+    "order": 33
+  },
+  {
+    "slug": "jw-w-037",
+    "number": "JW-W-037",
+    "title": "Citrus Rain",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of 18K white gold wedding bands titled Citrus Rain, finished with traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-W-037-01.jpg",
+      "/images/JW-W-037-02.jpg",
+      "/images/JW-W-037-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-037-01.jpg",
+    "order": 34
+  },
+  {
+    "slug": "jw-w-038",
+    "number": "JW-W-038",
+    "title": "Lovers' Hands",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K Yellow Gold, Garnet",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K yellow gold wedding bands titled Lovers’ Hands, with garnet accents and traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-W-038-01.jpg",
+      "/images/JW-W-038-02.jpg",
+      "/images/JW-W-038-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-038-01.jpg",
+    "order": 35
+  },
+  {
+    "slug": "jw-w-039",
+    "number": "JW-W-039",
+    "title": "Classical Ornament IV",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K White Gold, Diamond",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of 18K white gold wedding bands with classical hand-engraved ornamentation and diamond accents."
+    ],
+    "images": [
+      "/images/JW-W-039-01.jpg",
+      "/images/JW-W-039-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-039-01.jpg",
+    "order": 36
+  },
+  {
+    "slug": "jw-w-040",
+    "number": "JW-W-040",
+    "title": "Shooting Stars",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K Yellow Gold, Diamond",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K yellow gold wedding bands featuring shooting-star motifs, diamonds, and traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-W-040-01.jpg",
+      "/images/JW-W-040-02.jpg",
+      "/images/JW-W-040-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-040-01.jpg",
+    "order": 37
+  },
+  {
+    "slug": "jw-w-041",
+    "number": "JW-W-041",
+    "title": "Oak Leaf",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K Yellow Gold, Diamond",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of 18K yellow gold wedding bands with hand-engraved oak-leaf motifs and diamond accents."
+    ],
+    "images": [
+      "/images/JW-W-041-01.jpg",
+      "/images/JW-W-041-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-041-01.jpg",
+    "order": 38
+  },
+  {
+    "slug": "jw-w-042",
+    "number": "JW-W-042",
+    "title": "Mountains & Sea II",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K Yellow Gold, Diamond",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K yellow gold wedding bands featuring mountain and sea motifs, diamond accents, and traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-W-042-01.jpg"
+    ],
+    "videos": [
+      "/videos/JW-W-042-02.mp4"
+    ],
+    "cover": "/images/JW-W-042-01.jpg",
+    "order": 39
   }
 ];
