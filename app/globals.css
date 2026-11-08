@@ -342,3 +342,37 @@
     font-size: 17px !important;
   }
 }
+
+/* Homepage — About the Artist photo */
+
+.about-strip .about-artist-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr);
+  gap: 48px;
+  align-items: center;
+  min-width: 0;
+}
+
+.about-artist-text {
+  min-width: 0;
+}
+
+.about-artist-photo {
+  width: 100%;
+  min-width: 0;
+}
+
+.about-artist-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .about-strip .about-artist-content {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
