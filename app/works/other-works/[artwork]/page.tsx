@@ -1,352 +1,78 @@
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { otherWorksArchive } from "../../[slug]/other-works-archive";
 
-export type OtherWorksArtwork = {
-  slug: string;
-  number: string;
-  title: string;
-  category: string;
-  year: string;
-  material: string;
-  technique: string;
-  artist: string;
-  description: string[];
-  images: string[];
-  videos: string[];
-  cover?: string | null;
-  order: number;
-};
+type Props = { params: Promise<{ artwork: string }> };
 
-export const otherWorksArchive: OtherWorksArtwork[] = [
-  {
-    "slug": "e-001",
-    "number": "E-001",
-    "title": "Engraving & Enamel",
-    "category": "Other Works",
-    "year": "2024",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver work exploring the combination of hand engraving and enamel."
-    ],
-    "images": [
-      "/images/E-001-01.jpg",
-      "/images/E-001-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-001-01.jpg",
-    "order": 1
-  },
-  {
-    "slug": "e-003",
-    "number": "E-003",
-    "title": "Engraving & Enamel",
-    "category": "Other Works",
-    "year": "2024",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver work exploring the combination of hand engraving and enamel."
-    ],
-    "images": [
-      "/images/E-003-01.jpg",
-      "/images/E-003-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-003-01.jpg",
-    "order": 2
-  },
-  {
-    "slug": "e-004",
-    "number": "E-004",
-    "title": "Engraved Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
-    "images": [
-      "/images/E-004-01.jpg",
-      "/images/E-004-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-004-01.jpg",
-    "order": 3
-  },
-  {
-    "slug": "e-005",
-    "number": "E-005",
-    "title": "Engraved Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
-    "images": [
-      "/images/E-005-01.jpg",
-      "/images/E-005-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-005-01.jpg",
-    "order": 4
-  },
-  {
-    "slug": "e-006",
-    "number": "E-006",
-    "title": "Engraved Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
-    "images": [
-      "/images/E-006-01.jpg",
-      "/images/E-006-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-006-01.jpg",
-    "order": 5
-  },
-  {
-    "slug": "e-007",
-    "number": "E-007",
-    "title": "Engraved Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
-    "images": [
-      "/images/E-007-01.jpg",
-      "/images/E-007-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-007-01.jpg",
-    "order": 6
-  },
-  {
-    "slug": "e-008",
-    "number": "E-008",
-    "title": "Engraved Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
-    "images": [
-      "/images/E-008-01.jpg",
-      "/images/E-008-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-008-01.jpg",
-    "order": 7
-  },
-  {
-    "slug": "e-009",
-    "number": "E-009",
-    "title": "Engraved Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
-    "images": [
-      "/images/E-009-01.jpg",
-      "/images/E-009-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-009-01.jpg",
-    "order": 8
-  },
-  {
-    "slug": "e-010",
-    "number": "E-010",
-    "title": "Engraved Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
-    "images": [
-      "/images/E-010-01.jpg",
-      "/images/E-010-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-010-01.jpg",
-    "order": 9
-  },
-  {
-    "slug": "e-011",
-    "number": "E-011",
-    "title": "Engraved Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
-    "images": [
-      "/images/E-011-01.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-011-01.jpg",
-    "order": 10
-  },
-  {
-    "slug": "e-012",
-    "number": "E-012",
-    "title": "Pebble Collection — Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver",
-    "technique": "Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant from the Pebble Collection."
-    ],
-    "images": [
-      "/images/E-012-01.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-012-01.jpg",
-    "order": 11
-  },
-  {
-    "slug": "e-013",
-    "number": "E-013",
-    "title": "Pebble Collection — Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver, Gold Foil",
-    "technique": "Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant with gold foil from the Pebble Collection."
-    ],
-    "images": [
-      "/images/E-013-01.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-013-01.jpg",
-    "order": 12
-  },
-  {
-    "slug": "e-014",
-    "number": "E-014",
-    "title": "Pebble Collection — Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver",
-    "technique": "Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant from the Pebble Collection."
-    ],
-    "images": [
-      "/images/E-014-01.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-014-01.jpg",
-    "order": 13
-  },
-  {
-    "slug": "e-015",
-    "number": "E-015",
-    "title": "Pebble Collection — Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver, Gold Foil",
-    "technique": "Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant with gold foil from the Pebble Collection."
-    ],
-    "images": [
-      "/images/E-015-01.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-015-01.jpg",
-    "order": 14
-  },
-  {
-    "slug": "e-016",
-    "number": "E-016",
-    "title": "Pebble Collection — Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver, Gold Foil",
-    "technique": "Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant with gold foil from the Pebble Collection."
-    ],
-    "images": [
-      "/images/E-016-01.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-016-01.jpg",
-    "order": 15
-  },
-  {
-    "slug": "e-017",
-    "number": "E-017",
-    "title": "Pebble Collection — Enamel Pendant",
-    "category": "Other Works",
-    "year": "2026",
-    "material": "Silver, Gold Foil",
-    "technique": "Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant with gold foil from the Pebble Collection."
-    ],
-    "images": [
-      "/images/E-017-01.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-017-01.jpg",
-    "order": 16
-  },
-  {
-    "slug": "e-002",
-    "number": "E-002",
-    "title": "Engraved Enamel Ring",
-    "category": "Other Works",
-    "year": "2025",
-    "material": "Silver",
-    "technique": "Engraving, Enamel",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A silver work exploring the combination of hand engraving and enamel."
-    ],
-    "images": [
-      "/images/E-002-01.jpg",
-      "/images/E-002-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/E-002-01.jpg",
-    "order": 17
-  }
-];
+export function generateStaticParams() {
+  return otherWorksArchive.map((work) => ({ artwork: work.slug }));
+}
+
+export default async function OtherWorksDetailPage({ params }: Props) {
+  const { artwork } = await params;
+  const work = otherWorksArchive.find((item) => item.slug === artwork);
+  if (!work) notFound();
+
+  const [mainImage, ...detailImages] = work.images;
+  const videos = work.videos || [];
+
+  return (
+    <main className="interior artwork-page">
+      <Link className="breadcrumb" href="/works/other-works">← Other Works</Link>
+
+      <div className="artwork-head">
+        <div>
+          <span className="index">{work.number.toUpperCase()} / {work.category.toUpperCase()}</span>
+          <h1>{work.title}</h1>
+          <p>Engraving, Enamel &amp; Artistic Explorations</p>
+        </div>
+        <span className="artwork-year">{work.year}</span>
+      </div>
+
+      {mainImage && (
+        <figure className="artwork-hero">
+          <img src={mainImage} alt={`${work.title} — ${work.material}`} />
+          <figcaption>01 / Overall view</figcaption>
+        </figure>
+      )}
+
+      <div className="artwork-info">
+        <div>
+          <span className="index">THE WORK</span>
+          {work.description.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
+        </div>
+        <dl>
+          <div><dt>Year</dt><dd>{work.year}</dd></div>
+          <div><dt>Material</dt><dd>{work.material}</dd></div>
+          <div><dt>Technique</dt><dd>{work.technique}</dd></div>
+          <div><dt>Artist</dt><dd>{work.artist}</dd></div>
+        </dl>
+      </div>
+
+      {videos.map((src, index) => (
+        <figure className="artwork-hero" key={src}>
+          <video controls playsInline preload="metadata" style={{ display: "block", width: "100%", height: "auto" }}>
+            <source src={src} type="video/mp4" />
+            Your browser does not support HTML5 video.
+          </video>
+          <figcaption>{String((mainImage ? 2 : 1) + index).padStart(2, "0")} / Film</figcaption>
+        </figure>
+      ))}
+
+      {detailImages.length > 0 && (
+        <div className="artwork-gallery">
+          {detailImages.map((src, index) => (
+            <figure key={src}>
+              <img src={src} alt={`${work.title} — detail ${index + 1}`} />
+              <figcaption>{String(index + videos.length + 2).padStart(2, "0")} / Details</figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
+
+      <Link className="breadcrumb" href="/works/other-works">← Back to Other Works</Link>
+    </main>
+  );
+}
