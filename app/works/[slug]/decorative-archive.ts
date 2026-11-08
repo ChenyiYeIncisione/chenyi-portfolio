@@ -522,11 +522,11 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved silver photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L26-04-01.jpg",
-      "/images/L26-04-02.jpg"
+      "/images/L-26-04-01.jpg",
+      "/images/L-26-04-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/L26-04-01.jpg",
+    "cover": "/images/L-26-04-01.jpg",
     "order": 12
   },
   {
@@ -542,10 +542,10 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved silver photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L26-05-01.jpg"
+      "/images/L-26-05-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/L26-05-01.jpg",
+    "cover": "/images/L-26-05-01.jpg",
     "order": 14
   },
   {
@@ -561,10 +561,10 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved silver photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L26-06-01.jpg"
+      "/images/L-26-06-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/L26-06-01.jpg",
+    "cover": "/images/L-26-06-01.jpg",
     "order": 15
   },
   {
@@ -580,10 +580,10 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved silver photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L26-07-01.jpg"
+      "/images/L-26-07-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/L26-07-01.jpg",
+    "cover": "/images/L-26-07-01.jpg",
     "order": 16
   },
   {
@@ -599,10 +599,10 @@ export const decorativeArchive: DecorativeArtwork[] = [
       "A hand-engraved silver photo locket designed to hold two photographs, combining a personal keepsake with traditional metal craftsmanship."
     ],
     "images": [
-      "/images/L26-08-01.jpg"
+      "/images/L-26-08-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/L26-08-01.jpg",
+    "cover": "/images/L-26-08-01.jpg",
     "order": 13
   }
 ];
