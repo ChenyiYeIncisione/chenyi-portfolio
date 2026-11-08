@@ -128,7 +128,7 @@ export default function Home() {
 
           <div className="about-artist-photo">
             <img
-              src="/images/L1160096(1).JPG"
+              src="/images/L1160096.JPG"
               alt="Chenyi Ye working at her engraving bench"
             />
           </div>
