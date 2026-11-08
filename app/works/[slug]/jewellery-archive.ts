@@ -1604,5 +1604,123 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "cover": "/images/JW-W-042-01.jpg",
     "order": 39
+  },
+  {
+    "slug": "jw-w-043",
+    "number": "JW-W-043",
+    "title": "Phoenix Motif",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K White Gold, Diamond",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "Wedding bands in 18K white gold with diamond accents and a traditional hand-engraved phoenix-bird motif."
+    ],
+    "images": [
+      "/images/JW-W-043-01.jpg"
+    ],
+    "videos": [
+      "/videos/JW-W-043-02.mp4"
+    ],
+    "cover": "/images/JW-W-043-01.jpg",
+    "order": 40
+  },
+  {
+    "slug": "jw-w-044",
+    "number": "JW-W-044",
+    "title": "Apatite & Ornament",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K yellow gold wedding bands with apatite-inspired gemstone detailing and classical hand-engraved ornament."
+    ],
+    "images": [
+      "/images/JW-W-044-01.jpg",
+      "/images/JW-W-044-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-044-01.jpg",
+    "order": 41
+  },
+  {
+    "slug": "jw-w-045",
+    "number": "JW-W-045",
+    "title": "Wings of the Wind",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K White Gold, 18K Yellow Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "Two-tone 18K gold wedding bands featuring a hand-engraved wing motif."
+    ],
+    "images": [
+      "/images/JW-W-045-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-045-01.jpg",
+    "order": 42
+  },
+  {
+    "slug": "jw-w-046",
+    "number": "JW-W-046",
+    "title": "Egyptian Reverie",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K White Gold, Jadeite",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K white gold wedding bands incorporating jadeite and Egyptian-inspired motifs, finished with hand engraving."
+    ],
+    "images": [
+      "/images/JW-W-046-01.jpg",
+      "/images/JW-W-046-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-046-01.jpg",
+    "order": 43
+  },
+  {
+    "slug": "jw-w-047",
+    "number": "JW-W-047",
+    "title": "Classical Engraving V",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K white gold wedding bands decorated with classical ornamental hand engraving."
+    ],
+    "images": [
+      "/images/JW-W-047-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-047-01.jpg",
+    "order": 44
+  },
+  {
+    "slug": "jw-w-048",
+    "number": "JW-W-048",
+    "title": "Entwined Vines",
+    "category": "Wedding Bands",
+    "year": "2025",
+    "material": "18K Yellow Gold, Diamond",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "18K yellow gold wedding bands with diamond accents and a hand-engraved vine motif."
+    ],
+    "images": [],
+    "videos": [
+      "/videos/JW-W-048-01.mp4"
+    ],
+    "cover": null,
+    "order": 45
   }
 ];
