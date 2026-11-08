@@ -71,7 +71,9 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "artist": "Chenyi Ye",
     "description": [],
     "images": [
-      "/images/JW-W-013-01.jpg"
+      "/images/JW-W-013-01.jpg",
+      "/images/JW-W-013-02.jpg",
+      "/images/JW-W-013-03.jpg"
     ],
     "videos": [],
     "cover": "/images/JW-W-013-01.jpg",
@@ -1639,11 +1641,12 @@ export const jewelleryArchive: JewelleryArtwork[] = [
       "18K yellow gold wedding bands with apatite-inspired gemstone detailing and classical hand-engraved ornament."
     ],
     "images": [
-      "/images/JW-W-044-01.jpg",
       "/images/JW-W-044-02.jpg"
     ],
-    "videos": [],
-    "cover": "/images/JW-W-044-01.jpg",
+    "videos": [
+      "/videos/JW-W-044-01.mp4"
+    ],
+    "cover": "/images/JW-W-044-02.jpg",
     "order": 41
   },
   {
@@ -1722,5 +1725,24 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     ],
     "cover": null,
     "order": 45
+  },
+  {
+    "slug": "jw-w-049",
+    "number": "JW-W-049",
+    "title": "Constellations",
+    "category": "Wedding Bands",
+    "year": "2026",
+    "material": "18K White Gold",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of 18K white gold wedding bands featuring hand-engraved constellation motifs."
+    ],
+    "images": [
+      "/images/JW-W-049-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-W-049-01.jpg",
+    "order": 46
   }
 ];
