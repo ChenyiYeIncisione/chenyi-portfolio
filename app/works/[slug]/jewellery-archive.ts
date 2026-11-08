@@ -1744,5 +1744,46 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "videos": [],
     "cover": "/images/JW-W-049-01.jpg",
     "order": 46
+  },
+  {
+    "slug": "jw-e-001",
+    "number": "JW-E-001",
+    "title": "Engraved Earrings I",
+    "category": "Others",
+    "year": "2026",
+    "material": "Silver",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of silver earrings decorated through traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-E-001-01.jpg",
+      "/images/JW-E-001-02.jpg",
+      "/images/JW-E-001-03.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-E-001-01.jpg",
+    "order": 3
+  },
+  {
+    "slug": "jw-e-002",
+    "number": "JW-E-002",
+    "title": "Engraved Earrings II",
+    "category": "Others",
+    "year": "2025",
+    "material": "Silver",
+    "technique": "Traditional hand engraving with burin",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A pair of silver earrings decorated through traditional hand engraving."
+    ],
+    "images": [
+      "/images/JW-E-002-01.jpg",
+      "/images/JW-E-002-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-E-002-01.jpg",
+    "order": 4
   }
 ];
