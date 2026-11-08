@@ -6,6 +6,6 @@ export const works = [
 ] as const;
 
 export const crafts = [
-  {slug:'tools-preparation',title:'Tools & Preparation',image:'/B1C99A55-A784-4E7C-B731-26307F905767.JPG',subtitle:'Tool making · Shaping · Sharpening',description:'Preparing and adapting hand-push gravers: selecting high-speed steel, shaping profiles, grinding, sharpening and refining each cutting edge for its intended mark.'},
-  {slug:'making-process',title:'The Making Process',image:'/images/IMG_8275.HEIC',subtitle:'Design · Engraving · Enamelling · Finishing',description:'From drawing and surface preparation to Florentine hand-push engraving, enamel work and final surface finishing.'},
+  {slug:'tools-preparation',title:'Tools & Preparation',image: "/images/craft-tools-cover.jpg",subtitle:'Tool making · Shaping · Sharpening',description:'Preparing and adapting hand-push gravers: selecting high-speed steel, shaping profiles, grinding, sharpening and refining each cutting edge for its intended mark.'},
+  {slug:'making-process',title:'The Making Process',image: "/images/craft-making-cover.jpg",subtitle:'Design · Engraving · Enamelling · Finishing',description:'From drawing and surface preparation to Florentine hand-push engraving, enamel work and final surface finishing.'},
 ] as const;
