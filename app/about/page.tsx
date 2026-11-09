@@ -183,10 +183,13 @@ export default function About() {
           opportunities in hand engraving, enamelling
           and fine jewellery.
         </p>
+<a
+  className="artist-contact-email"
+  href="mailto:y.olga010@gmail.com"
+>
+  y.olga010@gmail.com ↗
+</a>
 
-        <div className="artist-contact-placeholder">
-          Professional email address to be added
-        </div>
       </section>
     </main>
   );
