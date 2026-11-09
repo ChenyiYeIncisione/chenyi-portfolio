@@ -46,7 +46,7 @@ export default function RootLayout({
           <span>
             Hand Engraving · Enamelling · Jewellery Design
           </span>
-          <Link href="/about">About / Contact ↗</Link>
+         <Link href="/about#contact">About / Contact ↗</Link>
         </footer>
       </body>
     </html>
