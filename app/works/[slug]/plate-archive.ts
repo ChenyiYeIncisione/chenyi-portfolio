@@ -278,7 +278,7 @@ export const plateArchive: PlateArtwork[] = [
     artist: "Chenyi Ye",
     images: [
       "/images/plate-no-98-01.jpg",
-      "/images/plate-no-98-02.jpg",
+      "/images/plate-no-98-02.JPG",
     ],
     description: [
       "Combining classical acanthus scrollwork with delicate floral elements, this engraving explores the relationship between ornamental structure and botanical forms.",
