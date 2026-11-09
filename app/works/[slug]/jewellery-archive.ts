@@ -1746,44 +1746,23 @@ export const jewelleryArchive: JewelleryArtwork[] = [
     "order": 46
   },
   {
-    "slug": "jw-e-001",
-    "number": "JW-E-001",
-    "title": "Engraved Earrings I",
-    "category": "Others",
+    "slug": "jw-p-011",
+    "number": "JW-P-011",
+    "title": "Engraved Enamel Pendant",
+    "category": "Pendants & Necklaces",
     "year": "2026",
-    "material": "Silver",
-    "technique": "Traditional hand engraving with burin",
+    "material": "Silver, Gold Foil",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
     "description": [
-      "A pair of silver earrings decorated through traditional hand engraving."
+      "A silver pendant combining traditional hand engraving with enamel and gold foil."
     ],
     "images": [
-      "/images/JW-E-001-01.jpg",
-      "/images/JW-E-001-02.jpg",
-      "/images/JW-E-001-03.jpg"
+      "/images/JW-P-011-01.jpg",
+      "/images/JW-P-011-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/JW-E-001-01.jpg",
-    "order": 3
-  },
-  {
-    "slug": "jw-e-002",
-    "number": "JW-E-002",
-    "title": "Engraved Earrings II",
-    "category": "Others",
-    "year": "2025",
-    "material": "Silver",
-    "technique": "Traditional hand engraving with burin",
-    "artist": "Chenyi Ye",
-    "description": [
-      "A pair of silver earrings decorated through traditional hand engraving."
-    ],
-    "images": [
-      "/images/JW-E-002-01.jpg",
-      "/images/JW-E-002-02.jpg"
-    ],
-    "videos": [],
-    "cover": "/images/JW-E-002-01.jpg",
-    "order": 4
+    "cover": "/images/JW-P-011-01.jpg",
+    "order": 999
   }
 ];
