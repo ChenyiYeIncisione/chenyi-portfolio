@@ -8,8 +8,16 @@ export default function Home() {
       <section className="hero">
         <div className="hero-top">
           <div className="hero-name">
-            <span className="eyebrow">AN ARCHIVE OF ART & CRAFT</span>
-            <h1>CHENYI<br />YE</h1>
+            <span className="eyebrow">
+              AN ARCHIVE OF ART & CRAFT
+            </span>
+
+            <h1>
+              CHENYI
+              <br className="hero-name-break" />
+              <span className="hero-name-space"> </span>
+              YE
+            </h1>
           </div>
 
           <div className="hero-intro">
@@ -18,7 +26,9 @@ export default function Home() {
               Enamel Artist<br />
               Jewellery Designer
             </p>
+
             <span className="mini-rule" />
+
             <Link href="/works" className="quiet-link">
               Explore the archive ↗
             </Link>
@@ -43,11 +53,16 @@ export default function Home() {
         <div className="section-heading side-heading">
           <div>
             <span className="index">01 /</span>
-            <h2>EXPLORE<br />THE WORKS</h2>
+            <h2>
+              EXPLORE<br />
+              THE WORKS
+            </h2>
             <div className="hairline" />
           </div>
+
           <span className="section-side-note">
-            SELECTED WORKS<br />AND STUDIES
+            SELECTED WORKS<br />
+            AND STUDIES
           </span>
         </div>
 
@@ -61,6 +76,7 @@ export default function Home() {
               <div className="image-wrap">
                 <img src={w.image} alt={w.title} />
               </div>
+
               <div className="tile-caption">
                 <h3>{w.title}</h3>
                 <span>↗</span>
@@ -77,8 +93,6 @@ export default function Home() {
             <h2>CRAFTSMANSHIP</h2>
             <p className="italic">From Tools to Creation</p>
           </div>
-
-          
         </div>
 
         <div className="craft-grid">
@@ -91,10 +105,12 @@ export default function Home() {
               <div className="image-wrap">
                 <img src={c.image} alt={c.title} />
               </div>
+
               <div className="tile-caption">
                 <h3>{c.title}</h3>
                 <span>↗</span>
               </div>
+
               <p className="small-caps">{c.subtitle}</p>
             </Link>
           ))}
@@ -102,19 +118,20 @@ export default function Home() {
       </section>
 
       <section className="about-strip">
-        <span className="index">03 / ABOUT THE ARTIST</span>
+        <span className="index">
+          03 / ABOUT THE ARTIST
+        </span>
 
         <div className="about-artist-content">
-          <div className="about-artist-text">             
-<h2>About Artist</h2>
+          <div className="about-artist-text">
+            <h2>About Artist</h2>
 
-         
-<p>
-  Chenyi Ye specialises in traditional hand engraving,
-  enamelling and jewellery design, combining historical
-  craftsmanship with contemporary practice.
-</p>
-
+            <p>
+              Chenyi Ye specialises in traditional hand
+              engraving, enamelling and jewellery design,
+              combining historical craftsmanship with
+              contemporary practice.
+            </p>
 
             <Link className="quiet-link" href="/about">
               Discover the artist ↗
