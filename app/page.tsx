@@ -105,13 +105,10 @@ export default function Home() {
         <span className="index">03 / ABOUT THE ARTIST</span>
 
         <div className="about-artist-content">
-          <div className="about-artist-text">
-            <h2>
-              Tradition, interpreted<br />
-              <em>by hand.</em>
-            </h2>
+          <div className="about-artist-text">             
+<h2>About Artist</h2>
 
-           
+         
 <p>
   Chenyi Ye specialises in traditional hand engraving,
   enamelling and jewellery design, combining historical
