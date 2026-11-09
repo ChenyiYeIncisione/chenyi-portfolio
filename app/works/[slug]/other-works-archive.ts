@@ -4,6 +4,7 @@
  */
 export type OtherWork = {
   slug: string;
+  order: number;
   number: string;
   title: string;
   category: string;
@@ -20,6 +21,7 @@ export type OtherWork = {
 export const otherWorksArchive: OtherWork[] = [
   {
     "slug": "e-001",
+"order": 1,
     "number": "E-001",
     "title": "Engraving and Enamel Study",
     "category": "Other Works",
@@ -37,6 +39,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-003",
+"order": 2,
     "number": "E-003",
     "title": "Engraving and Enamel Study",
     "category": "Other Works",
@@ -54,6 +57,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-004",
+"order": 3,
     "number": "E-004",
     "title": "Engraved Enamel Pendant",
     "category": "Other Works",
@@ -71,6 +75,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "jw-p-011",
+"order": 4,
     "number": "JW-P-011",
     "title": "Engraved Enamel Pendant",
     "category": "Other Works",
@@ -88,6 +93,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-005",
+"order": 5,
     "number": "E-005",
     "title": "Engraved Enamel Pendant",
     "category": "Other Works",
@@ -105,6 +111,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-006",
+"order": 6,
     "number": "E-006",
     "title": "Engraved Enamel Pendant",
     "category": "Other Works",
@@ -122,6 +129,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-007",
+"order": 7,
     "number": "E-007",
     "title": "Engraved Enamel Pendant",
     "category": "Other Works",
@@ -139,6 +147,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-008",
+"order": 8,
     "number": "E-008",
     "title": "Engraved Enamel Pendant",
     "category": "Other Works",
@@ -156,6 +165,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-009",
+"order": 9,
     "number": "E-009",
     "title": "Engraved Enamel Pendant",
     "category": "Other Works",
@@ -173,6 +183,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-010",
+"order": 10,
     "number": "E-010",
     "title": "Engraved Enamel Pendant",
     "category": "Other Works",
@@ -190,6 +201,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-011",
+"order": 11,
     "number": "E-011",
     "title": "Engraved Enamel Pendant",
     "category": "Other Works",
@@ -206,6 +218,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-012",
+"order": 12,
     "number": "E-012",
     "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
@@ -222,6 +235,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-013",
+"order": 13,
     "number": "E-013",
     "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
@@ -238,6 +252,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-014",
+"order": 14,
     "number": "E-014",
     "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
@@ -254,6 +269,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-015",
+"order": 15,
     "number": "E-015",
     "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
@@ -270,6 +286,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-016",
+"order": 16,
     "number": "E-016",
     "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
@@ -286,6 +303,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-017",
+"order": 17,
     "number": "E-017",
     "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
@@ -302,6 +320,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "m-01",
+"order": 18,
     "number": "M-01",
     "title": "Beijing Opera Collection",
     "category": "Other Works",
@@ -320,6 +339,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "m-02",
+"order": 19,
     "number": "M-02",
     "title": "Dou Erdun — Beijing Opera Collection",
     "category": "Other Works",
@@ -340,6 +360,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "m-03",
+"order": 20,
     "number": "M-03",
     "title": "Lu Zhishen — Beijing Opera Collection",
     "category": "Other Works",
@@ -359,6 +380,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "m-04",
+"order": 21,
     "number": "M-04",
     "title": "Huang Pang — Beijing Opera Collection",
     "category": "Other Works",
@@ -378,6 +400,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "m-05",
+"order": 22,
     "number": "M-05",
     "title": "Sun Wukong — Beijing Opera Collection",
     "category": "Other Works",
@@ -397,6 +420,7 @@ export const otherWorksArchive: OtherWork[] = [
   },
   {
     "slug": "e-002",
+"order": 23,
     "number": "E-002",
     "title": "Enamel Ring",
     "category": "Other Works",
