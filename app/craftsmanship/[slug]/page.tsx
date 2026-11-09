@@ -19,27 +19,38 @@ export default async function CraftDetail({
 
   if (slug === "tools-preparation") {
     return (
-      <main className="interior detail">
-        <Link className="breadcrumb" href="/craftsmanship">
-          ← Craftsmanship
-        </Link>
-
-        <div className="interior-head">
+      <main className="interior tools-page">
+        <div className="tools-page-top">
+          <Link
+            className="breadcrumb"
+            href="/craftsmanship"
+          >
+            ← Craftsmanship
+          </Link>
           <span className="index">
-            CRAFTSMANSHIP / PROCESS
+            CRAFTSMANSHIP / 01
           </span>
-          <h1>{c.title}</h1>
         </div>
 
-        <section className="tools-preparation-layout">
-          <div className="tools-preparation-image">
+        <header className="tools-page-heading">
+          <h1>Tools &amp; Preparation</h1>
+        </header>
+
+        <section className="tools-page-content">
+          <figure className="tools-page-photo">
             <img
               src="/images/tools.jpg"
-              alt="Preparation and sharpening of hand engraving tools"
+              alt="Preparation of traditional hand engraving tools"
             />
-          </div>
+          </figure>
 
-          <div className="tools-preparation-text">
+          <div className="tools-page-copy">
+            <span className="index">
+              01 / THE CRAFT
+            </span>
+
+            <div className="tools-page-rule" />
+
             <p>
               Each hand engraving tool is individually
               shaped, ground and sharpened to meet
@@ -65,7 +76,10 @@ export default async function CraftDetail({
 
   return (
     <main className="interior detail">
-      <Link className="breadcrumb" href="/craftsmanship">
+      <Link
+        className="breadcrumb"
+        href="/craftsmanship"
+      >
         ← Craftsmanship
       </Link>
 
