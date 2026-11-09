@@ -731,3 +731,11 @@
     font-size: 25px;
   }
 }
+/* Global image protection */
+
+img {
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
