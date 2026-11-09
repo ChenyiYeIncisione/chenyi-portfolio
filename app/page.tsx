@@ -78,10 +78,7 @@ export default function Home() {
             <p className="italic">From Tools to Creation</p>
           </div>
 
-          <p className="craft-description">
-            A record of traditional techniques and personal practice,
-            from tool preparation to the complete making process.
-          </p>
+          
         </div>
 
         <div className="craft-grid">
