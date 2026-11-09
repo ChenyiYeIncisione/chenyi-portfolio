@@ -920,3 +920,203 @@ img {
 .artist-page .artist-contact-email:hover {
   opacity: 0.55;
 }
+
+/* =========================================
+   HOMEPAGE MOBILE — FINAL RESPONSIVE FIX
+   ========================================= */
+
+/* Desktop: keep the original two-line name */
+.hero-name-break {
+  display: initial;
+}
+
+.hero-name-space {
+  display: none;
+}
+
+@media (max-width: 750px) {
+
+  /* HERO */
+
+  .hero,
+  .hero-top,
+  .hero-landscape {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .hero-top {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    min-height: 0;
+    padding: 38px 6% 42px;
+    gap: 0;
+  }
+
+  .hero-name {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hero-name .eyebrow {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 0.13em;
+    margin-bottom: 28px;
+  }
+
+  .hero-name h1 {
+    font-size: clamp(36px, 9.5vw, 54px);
+    line-height: 1;
+    letter-spacing: -0.055em;
+    white-space: nowrap;
+    margin: 0;
+  }
+
+  .hero-name-break {
+    display: none;
+  }
+
+  .hero-name-space {
+    display: inline;
+  }
+
+  .hero-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+    margin: 30px 0 0;
+    padding: 24px 0 0;
+    border-left: 0;
+    border-top: 1px solid var(--rule);
+  }
+
+  .hero-intro p {
+    font-size: clamp(19px, 5vw, 24px);
+    line-height: 1.4;
+    margin: 0 0 24px;
+  }
+
+  .hero-intro .mini-rule {
+    width: 42px;
+    margin: 0 0 22px;
+  }
+
+  .hero-intro .quiet-link {
+    font-size: 13px;
+    margin: 0;
+  }
+
+  .hero-ornament {
+    display: none;
+  }
+
+  /* FLORENCE IMAGE */
+
+  .hero-landscape {
+    height: auto;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .hero-landscape img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* CRAFTSMANSHIP */
+
+  .craft-home {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 52px 6% 65px;
+    overflow: hidden;
+  }
+
+  .craft-head,
+  .craft-head > div {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .craft-head {
+    margin-bottom: 32px;
+  }
+
+  .craft-head h2 {
+    font-size: clamp(27px, 7vw, 42px);
+    line-height: 1.08;
+    letter-spacing: -0.045em;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    margin: 16px 0 14px;
+  }
+
+  .craft-head .italic {
+    font-size: clamp(21px, 5vw, 27px);
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  .craft-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 38px;
+    width: 100%;
+  }
+
+  .craft-tile {
+    display: block;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .craft-tile .image-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+  }
+
+  .craft-tile .image-wrap img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .craft-tile .tile-caption {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 14px;
+    margin-top: 16px;
+  }
+
+  .craft-tile .tile-caption h3 {
+    font-size: clamp(26px, 6vw, 33px);
+    line-height: 1.15;
+    margin: 0;
+  }
+
+  .craft-tile .small-caps {
+    font-size: 10px;
+    line-height: 1.7;
+    letter-spacing: 0.1em;
+  }
+}
