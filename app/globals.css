@@ -969,3 +969,77 @@ img {
     font-size: 58px;
   }
 }
+
+/* ======================================
+   ABOUT PAGE — TYPOGRAPHY REFINEMENT
+   ====================================== */
+
+@media (min-width: 751px) {
+
+  .artist-page .artist-header h1 {
+    font-size: clamp(60px, 5.5vw, 78px);
+    line-height: 1;
+    letter-spacing: -0.045em;
+  }
+
+  .artist-page .artist-subtitle {
+    font-size: clamp(19px, 1.8vw, 23px);
+    line-height: 1.4;
+  }
+
+  .artist-page .artist-profile p {
+    font-size: clamp(21px, 2vw, 25px);
+    line-height: 1.42;
+  }
+
+  .artist-page .artist-timeline-content h2 {
+    font-size: clamp(26px, 2.5vw, 32px);
+  }
+
+  .artist-page .artist-practice-item h2 {
+    font-size: clamp(29px, 2.8vw, 36px);
+  }
+
+  .artist-page .artist-contact h2 {
+    font-size: clamp(46px, 4.5vw, 58px);
+  }
+
+  .artist-page .artist-header {
+    margin-bottom: 65px;
+  }
+
+  .artist-page .artist-section {
+    padding-top: 32px;
+    padding-bottom: 58px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 750px) {
+
+  .artist-page .artist-header h1 {
+    font-size: clamp(43px, 9vw, 58px);
+  }
+
+  .artist-page .artist-subtitle {
+    font-size: 19px;
+  }
+
+  .artist-page .artist-profile p {
+    font-size: 21px;
+    line-height: 1.45;
+  }
+
+  .artist-page .artist-timeline-content h2 {
+    font-size: 27px;
+  }
+
+  .artist-page .artist-practice-item h2 {
+    font-size: 31px;
+  }
+
+  .artist-page .artist-contact h2 {
+    font-size: 48px;
+  }
+}
