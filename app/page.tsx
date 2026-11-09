@@ -111,12 +111,13 @@ export default function Home() {
               <em>by hand.</em>
             </h2>
 
-            <p>
-              Working across hand engraving, enamelling and
-              jewellery design, Chenyi Ye explores the
-              relationship between traditional craftsmanship
-              and contemporary objects.
-            </p>
+           
+<p>
+  Chenyi Ye specialises in traditional hand engraving,
+  enamelling and jewellery design, combining historical
+  craftsmanship with contemporary practice.
+</p>
+
 
             <Link className="quiet-link" href="/about">
               Discover the artist ↗
