@@ -600,3 +600,134 @@
     line-height: 1.85;
   }
 }
+
+/* The Making Process — Film Archive */
+
+.process-page {
+  padding-top: 42px;
+  padding-bottom: 120px;
+}
+
+.process-page-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.process-page-top .breadcrumb {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.process-page-top .index {
+  color: var(--muted);
+}
+
+.process-page-heading {
+  margin: 48px 0 55px;
+}
+
+.process-page-heading h1 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: clamp(54px, 6vw, 92px);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.045em;
+  margin: 0 0 18px;
+}
+
+.process-page-heading p {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 24px;
+  color: var(--muted);
+  margin: 0;
+}
+
+.process-films {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.process-featured {
+  max-width: 920px;
+  margin: 0 auto 75px;
+}
+
+.process-featured video,
+.process-film video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 620px;
+  background: #211d1a;
+  object-fit: contain;
+}
+
+.process-film-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 55px 30px;
+}
+
+.process-film video {
+  max-height: 380px;
+}
+
+.process-film-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.process-film-caption h2 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 29px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.process-film-caption span {
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .process-page {
+    padding-top: 28px;
+    padding-bottom: 75px;
+  }
+
+  .process-page-heading {
+    margin: 36px 0 38px;
+  }
+
+  .process-page-heading h1 {
+    font-size: clamp(48px, 10vw, 70px);
+  }
+
+  .process-page-heading p {
+    font-size: 20px;
+  }
+
+  .process-featured {
+    margin-bottom: 45px;
+  }
+
+  .process-film-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .process-film-caption h2 {
+    font-size: 25px;
+  }
+}
