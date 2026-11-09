@@ -376,3 +376,55 @@
     gap: 32px;
   }
 }
+
+/* Tools & Preparation — two-column layout */
+
+.tools-preparation-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 64px;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.tools-preparation-image {
+  width: 100%;
+  min-width: 0;
+}
+
+.tools-preparation-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.tools-preparation-text {
+  max-width: 480px;
+}
+
+.tools-preparation-text p {
+  font-size: 16px;
+  line-height: 1.9;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+/* Mobile layout */
+
+@media (max-width: 768px) {
+  .tools-preparation-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    margin-top: 32px;
+  }
+
+  .tools-preparation-text {
+    max-width: 100%;
+  }
+
+  .tools-preparation-text p {
+    font-size: 15px;
+    line-height: 1.8;
+  }
+}
