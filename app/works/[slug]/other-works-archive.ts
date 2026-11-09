@@ -1,4 +1,8 @@
-export type OtherWorksArtwork = {
+/** Other Works archive — generated from Other_Works_Upload_Template(5).xlsx.
+ * Image paths are references to files that must exist in public/images/.
+ * Descriptions not provided in the spreadsheet are intentionally empty.
+ */
+export type OtherWork = {
   slug: string;
   number: string;
   title: string;
@@ -10,50 +14,43 @@ export type OtherWorksArtwork = {
   description: string[];
   images: string[];
   videos: string[];
-  cover?: string | null;
-  order: number;
+  cover: string;
 };
 
-export const otherWorksArchive: OtherWorksArtwork[] = [
+export const otherWorksArchive: OtherWork[] = [
   {
     "slug": "e-001",
     "number": "E-001",
-    "title": "Engraving & Enamel",
+    "title": "Engraving and Enamel Study",
     "category": "Other Works",
     "year": "2024",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver work exploring the combination of hand engraving and enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-001-01.jpg",
       "/images/E-001-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-001-01.jpg",
-    "order": 1
+    "cover": "/images/E-001-01.jpg"
   },
   {
     "slug": "e-003",
     "number": "E-003",
-    "title": "Engraving & Enamel",
+    "title": "Engraving and Enamel Study",
     "category": "Other Works",
     "year": "2024",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver work exploring the combination of hand engraving and enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-003-01.jpg",
       "/images/E-003-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-003-01.jpg",
-    "order": 2
+    "cover": "/images/E-003-01.jpg"
   },
   {
     "slug": "e-004",
@@ -62,18 +59,15 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     "category": "Other Works",
     "year": "2026",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-004-01.jpg",
       "/images/E-004-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-004-01.jpg",
-    "order": 3
+    "cover": "/images/E-004-01.jpg"
   },
   {
     "slug": "jw-p-011",
@@ -84,16 +78,13 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     "material": "Silver, Gold Foil",
     "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining traditional hand engraving with enamel and gold foil."
-    ],
+    "description": [],
     "images": [
       "/images/JW-P-011-01.jpg",
       "/images/JW-P-011-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/JW-P-011-01.jpg",
-    "order": 4
+    "cover": "/images/JW-P-011-01.jpg"
   },
   {
     "slug": "e-005",
@@ -102,18 +93,15 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     "category": "Other Works",
     "year": "2026",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-005-01.jpg",
       "/images/E-005-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-005-01.jpg",
-    "order": 5
+    "cover": "/images/E-005-01.jpg"
   },
   {
     "slug": "e-006",
@@ -122,18 +110,15 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     "category": "Other Works",
     "year": "2026",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-006-01.jpg",
       "/images/E-006-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-006-01.jpg",
-    "order": 6
+    "cover": "/images/E-006-01.jpg"
   },
   {
     "slug": "e-007",
@@ -142,18 +127,15 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     "category": "Other Works",
     "year": "2026",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-007-01.jpg",
       "/images/E-007-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-007-01.jpg",
-    "order": 7
+    "cover": "/images/E-007-01.jpg"
   },
   {
     "slug": "e-008",
@@ -162,18 +144,15 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     "category": "Other Works",
     "year": "2026",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-008-01.jpg",
       "/images/E-008-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-008-01.jpg",
-    "order": 8
+    "cover": "/images/E-008-01.jpg"
   },
   {
     "slug": "e-009",
@@ -182,18 +161,15 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     "category": "Other Works",
     "year": "2026",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-009-01.jpg",
       "/images/E-009-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-009-01.jpg",
-    "order": 9
+    "cover": "/images/E-009-01.jpg"
   },
   {
     "slug": "e-010",
@@ -202,18 +178,15 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     "category": "Other Works",
     "year": "2026",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-010-01.jpg",
       "/images/E-010-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-010-01.jpg",
-    "order": 10
+    "cover": "/images/E-010-01.jpg"
   },
   {
     "slug": "e-011",
@@ -222,150 +195,221 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     "category": "Other Works",
     "year": "2026",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver pendant combining engraved metalwork with enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-011-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-011-01.jpg",
-    "order": 11
+    "cover": "/images/E-011-01.jpg"
   },
   {
     "slug": "e-012",
     "number": "E-012",
-    "title": "Pebble Collection — Enamel Pendant",
+    "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
     "year": "2026",
     "material": "Silver",
     "technique": "Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant from the Pebble Collection."
-    ],
+    "description": [],
     "images": [
       "/images/E-012-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-012-01.jpg",
-    "order": 12
+    "cover": "/images/E-012-01.jpg"
   },
   {
     "slug": "e-013",
     "number": "E-013",
-    "title": "Pebble Collection — Enamel Pendant",
+    "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
     "year": "2026",
     "material": "Silver, Gold Foil",
     "technique": "Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant with gold foil from the Pebble Collection."
-    ],
+    "description": [],
     "images": [
       "/images/E-013-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-013-01.jpg",
-    "order": 13
+    "cover": "/images/E-013-01.jpg"
   },
   {
     "slug": "e-014",
     "number": "E-014",
-    "title": "Pebble Collection — Enamel Pendant",
+    "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
     "year": "2026",
     "material": "Silver",
     "technique": "Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant from the Pebble Collection."
-    ],
+    "description": [],
     "images": [
       "/images/E-014-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-014-01.jpg",
-    "order": 14
+    "cover": "/images/E-014-01.jpg"
   },
   {
     "slug": "e-015",
     "number": "E-015",
-    "title": "Pebble Collection — Enamel Pendant",
+    "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
     "year": "2026",
     "material": "Silver, Gold Foil",
     "technique": "Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant with gold foil from the Pebble Collection."
-    ],
+    "description": [],
     "images": [
       "/images/E-015-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-015-01.jpg",
-    "order": 15
+    "cover": "/images/E-015-01.jpg"
   },
   {
     "slug": "e-016",
     "number": "E-016",
-    "title": "Pebble Collection — Enamel Pendant",
+    "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
     "year": "2026",
     "material": "Silver, Gold Foil",
     "technique": "Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant with gold foil from the Pebble Collection."
-    ],
+    "description": [],
     "images": [
       "/images/E-016-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-016-01.jpg",
-    "order": 16
+    "cover": "/images/E-016-01.jpg"
   },
   {
     "slug": "e-017",
     "number": "E-017",
-    "title": "Pebble Collection — Enamel Pendant",
+    "title": "Pebble Stone Enamel Pendant",
     "category": "Other Works",
     "year": "2026",
     "material": "Silver, Gold Foil",
     "technique": "Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver enamel pendant with gold foil from the Pebble Collection."
-    ],
+    "description": [],
     "images": [
       "/images/E-017-01.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-017-01.jpg",
-    "order": 17
+    "cover": "/images/E-017-01.jpg"
+  },
+  {
+    "slug": "m-01",
+    "number": "M-01",
+    "title": "Beijing Opera Collection",
+    "category": "Other Works",
+    "year": "2024",
+    "material": "Silver",
+    "technique": "Hand Engraving",
+    "artist": "Chenyi Ye",
+    "description": [
+      "The Beijing Opera Collection reinterprets traditional Chinese opera face masks through Florentine hand engraving. Exploring the shifting boundaries between beauty and ugliness, the series considers the coexistence of order and contradiction."
+    ],
+    "images": [
+      "/images/M-01.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/M-01.jpg"
+  },
+  {
+    "slug": "m-02",
+    "number": "M-02",
+    "title": "Dou Erdun — Beijing Opera Collection",
+    "category": "Other Works",
+    "year": "2024",
+    "material": "Silver",
+    "technique": "Hand Engraving",
+    "artist": "Chenyi Ye",
+    "description": [
+      "Dou Erdun is distinguished by a blue opera mask, traditionally associated with courage and fierce determination. Its ornate 'three-tile' composition outlines the brows, eyes and nose; paired hooked forms above the eyes refer to the character’s weapons."
+    ],
+    "images": [
+      "/images/M-02-001.jpg",
+      "/images/M-02-002.jpg",
+      "/images/M-02-003.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/M-02-001.jpg"
+  },
+  {
+    "slug": "m-03",
+    "number": "M-03",
+    "title": "Lu Zhishen — Beijing Opera Collection",
+    "category": "Other Works",
+    "year": "2024",
+    "material": "Silver",
+    "technique": "Hand Engraving",
+    "artist": "Chenyi Ye",
+    "description": [
+      "Lu Zhishen's mask belongs to the monk-face tradition of Beijing opera, with a predominantly white ground, stylised eyes, nose and mouth, and a red mark on the forehead. Its distinctive mantis-like eyebrows suggest an imposing gaze and a bold, combative spirit."
+    ],
+    "images": [
+      "/images/M-03-001.jpg",
+      "/images/M-03-002.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/M-03-001.jpg"
+  },
+  {
+    "slug": "m-04",
+    "number": "M-04",
+    "title": "Huang Pang — Beijing Opera Collection",
+    "category": "Other Works",
+    "year": "2024",
+    "material": "Silver",
+    "technique": "Hand Engraving",
+    "artist": "Chenyi Ye",
+    "description": [
+      "Huang Pang is represented by a yellow-toned monk mask, associated with a formidable character from the Beijing opera Ba Luo He. The design incorporates stylised eye sockets, nose and mouth, together with a forehead mark referencing Buddhist ordination."
+    ],
+    "images": [
+      "/images/M-04-001.jpg",
+      "/images/M-04-002.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/M-04-001.jpg"
+  },
+  {
+    "slug": "m-05",
+    "number": "M-05",
+    "title": "Sun Wukong — Beijing Opera Collection",
+    "category": "Other Works",
+    "year": "2024",
+    "material": "Silver",
+    "technique": "Hand Engraving",
+    "artist": "Chenyi Ye",
+    "description": [
+      "Sun Wukong's monkey-face mask evokes the character's wit, mischievousness and rebellious spirit. Gold or yellow surrounds the eyes to suggest his fiery gaze, while the forehead ornament refers to his connection with Buddhism."
+    ],
+    "images": [
+      "/images/M-05-001.jpg",
+      "/images/M-05-002.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/M-05-001.jpg"
   },
   {
     "slug": "e-002",
     "number": "E-002",
-    "title": "Engraved Enamel Ring",
+    "title": "Enamel Ring",
     "category": "Other Works",
     "year": "2025",
     "material": "Silver",
-    "technique": "Engraving, Enamel",
+    "technique": "Hand Engraving, Enamel",
     "artist": "Chenyi Ye",
-    "description": [
-      "A silver work exploring the combination of hand engraving and enamel."
-    ],
+    "description": [],
     "images": [
       "/images/E-002-01.jpg",
       "/images/E-002-02.jpg"
     ],
     "videos": [],
-    "cover": "/images/E-002-01.jpg",
-    "order": 18
+    "cover": "/images/E-002-01.jpg"
   }
 ];
