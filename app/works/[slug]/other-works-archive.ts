@@ -76,6 +76,26 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     "order": 3
   },
   {
+    "slug": "jw-p-011",
+    "number": "JW-P-011",
+    "title": "Engraved Enamel Pendant",
+    "category": "Other Works",
+    "year": "2026",
+    "material": "Silver, Gold Foil",
+    "technique": "Hand Engraving, Enamel",
+    "artist": "Chenyi Ye",
+    "description": [
+      "A silver pendant combining traditional hand engraving with enamel and gold foil."
+    ],
+    "images": [
+      "/images/JW-P-011-01.jpg",
+      "/images/JW-P-011-02.jpg"
+    ],
+    "videos": [],
+    "cover": "/images/JW-P-011-01.jpg",
+    "order": 4
+  },
+  {
     "slug": "e-005",
     "number": "E-005",
     "title": "Engraved Enamel Pendant",
@@ -93,7 +113,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-005-01.jpg",
-    "order": 4
+    "order": 5
   },
   {
     "slug": "e-006",
@@ -113,7 +133,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-006-01.jpg",
-    "order": 5
+    "order": 6
   },
   {
     "slug": "e-007",
@@ -133,7 +153,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-007-01.jpg",
-    "order": 6
+    "order": 7
   },
   {
     "slug": "e-008",
@@ -153,7 +173,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-008-01.jpg",
-    "order": 7
+    "order": 8
   },
   {
     "slug": "e-009",
@@ -173,7 +193,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-009-01.jpg",
-    "order": 8
+    "order": 9
   },
   {
     "slug": "e-010",
@@ -193,7 +213,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-010-01.jpg",
-    "order": 9
+    "order": 10
   },
   {
     "slug": "e-011",
@@ -212,7 +232,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-011-01.jpg",
-    "order": 10
+    "order": 11
   },
   {
     "slug": "e-012",
@@ -231,7 +251,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-012-01.jpg",
-    "order": 11
+    "order": 12
   },
   {
     "slug": "e-013",
@@ -250,7 +270,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-013-01.jpg",
-    "order": 12
+    "order": 13
   },
   {
     "slug": "e-014",
@@ -269,7 +289,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-014-01.jpg",
-    "order": 13
+    "order": 14
   },
   {
     "slug": "e-015",
@@ -288,7 +308,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-015-01.jpg",
-    "order": 14
+    "order": 15
   },
   {
     "slug": "e-016",
@@ -307,7 +327,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-016-01.jpg",
-    "order": 15
+    "order": 16
   },
   {
     "slug": "e-017",
@@ -326,7 +346,7 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-017-01.jpg",
-    "order": 16
+    "order": 17
   },
   {
     "slug": "e-002",
@@ -346,6 +366,6 @@ export const otherWorksArchive: OtherWorksArtwork[] = [
     ],
     "videos": [],
     "cover": "/images/E-002-01.jpg",
-    "order": 17
+    "order": 18
   }
 ];
