@@ -60,7 +60,7 @@ function GalleryRow({ group, index }: { group: Group; index: number }) {
         </div>
       </div>
       <div className="archive-track" ref={track} tabIndex={0} aria-label={`Scroll through ${group.label}`}>
-        {group.items.filter((item) => item.image).map((item) => (
+        {group.items.filter((item) => item.image).slice(0, 6).map((item) => (
           <Link className="archive-slide" key={item.slug} href={`/works/${group.path}/${item.slug}`}>
             <div className="archive-slide-image">
               <img src={item.image} alt={item.title} loading="lazy" />
@@ -85,6 +85,28 @@ export default function WorksCarousel() {
         <p>Selected works in hand engraving, jewellery, decorative objects and enamelling.</p>
       </div>
       {groups.map((group, index) => <GalleryRow key={group.path} group={group} index={index} />)}
+      <style>{`
+/* Homepage gallery refinements: smaller headings, larger artworks, six per category */
+.archive-home{padding-top:64px}
+.archive-home-heading{margin-bottom:44px}
+.archive-home-heading h2{font-size:clamp(46px,5vw,70px);line-height:1.05;margin:12px 0 12px}
+.archive-home-heading p{font-size:clamp(17px,1.8vw,22px)}
+.archive-row-name h3{font-size:clamp(27px,2.8vw,37px)}
+.archive-row{margin-bottom:54px}
+.archive-track{gap:20px}
+.archive-slide{flex:0 0 clamp(260px,29vw,460px)}
+.archive-slide-image{height:clamp(290px,32vw,480px)}
+@media(max-width:700px){
+  .archive-home{padding-top:48px}
+  .archive-home-heading{margin-bottom:32px}
+  .archive-home-heading h2{font-size:clamp(40px,10vw,54px)}
+  .archive-home-heading p{font-size:17px}
+  .archive-row-name h3{font-size:26px}
+  .archive-track{gap:14px}
+  .archive-slide{flex-basis:78vw}
+  .archive-slide-image{height:86vw;max-height:430px}
+}
+`}</style>
     </section>
   );
 }
