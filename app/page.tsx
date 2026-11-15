@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import { works, crafts } from "./data";
-
+import WorksCarousel from "./works-carousel";
 export default function Home() {
   return (
     <main>
