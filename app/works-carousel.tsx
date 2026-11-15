@@ -10,20 +10,53 @@ import { otherWorksArchive } from "./works/[slug]/other-works-archive";
 type Item = { slug: string; title: string; number: string; year: string; image: string };
 type Group = { label: string; path: string; items: Item[] };
 
+// Homepage curation: edit only these selections to change the featured works.
+// The optional imageIndex is zero-based: 1 = second image, 4 = fifth image.
+const selectedPlates = [
+  { number: "No. 99", imageIndex: 1 },
+  { number: "No. 159" },
+  { number: "No. 122" },
+  { number: "No. 82" },
+  { number: "No. 47", imageIndex: 4 },
+  { number: "No. 110" },
+];
+
+const selectedJewellery = [
+  "JW-W-026",
+  "JW-W-049",
+  "JW-W-001",
+  "JW-W-013",
+  "JW-W-010",
+  "JW-W-024",
+];
+
+const curatedPlates: Item[] = selectedPlates.flatMap(({ number, imageIndex }) => {
+  const artwork = plateArchive.find((item) => item.number === number);
+  if (!artwork) return [];
+  return [{
+    slug: artwork.slug,
+    title: artwork.title,
+    number: artwork.number,
+    year: artwork.year,
+    image: artwork.images[imageIndex ?? 0] || artwork.images[0] || "",
+  }];
+});
+
+const curatedJewellery: Item[] = selectedJewellery.flatMap((number) => {
+  const artwork = jewelleryArchive.find((item) => item.number === number);
+  if (!artwork) return [];
+  return [{
+    slug: artwork.slug,
+    title: artwork.title,
+    number: artwork.number,
+    year: artwork.year,
+    image: artwork.cover || artwork.images[0] || "",
+  }];
+});
+
 const groups: Group[] = [
-  {
-    label: "Engraved Plates",
-    path: "engraved-plates",
-    items: [
-      { slug: "laika-space-dog", title: "Laika, the Space Dog", number: "No. 155", year: "2026", image: "/images/laika-01.jpg" },
-      ...plateArchive.map((a) => ({ slug: a.slug, title: a.title, number: a.number, year: a.year, image: a.images[0] || "" })),
-    ],
-  },
-  {
-    label: "Fine Jewellery",
-    path: "jewellery",
-    items: [...jewelleryArchive].sort((a, b) => a.order - b.order).map((a) => ({ slug: a.slug, title: a.title, number: a.number, year: a.year, image: a.cover || a.images[0] || "" })),
-  },
+  { label: "Engraved Plates", path: "engraved-plates", items: curatedPlates },
+  { label: "Fine Jewellery", path: "jewellery", items: curatedJewellery },
   {
     label: "Decorative Objects",
     path: "decorative-objects",
@@ -51,7 +84,7 @@ function GalleryRow({ group, index }: { group: Group; index: number }) {
         <div className="archive-row-name">
           <span className="archive-row-number">{String(index + 1).padStart(2, "0")}</span>
           <h3>{group.label}</h3>
-          <span className="archive-row-count">{group.items.length} works</span>
+          <span className="archive-row-count">{group.items.length} selected</span>
         </div>
         <div className="archive-row-actions">
           <Link href={`/works/${group.path}`} className="archive-view-all">View all ↗</Link>
