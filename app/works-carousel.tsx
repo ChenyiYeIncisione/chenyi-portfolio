@@ -30,6 +30,15 @@ const selectedJewellery = [
   { number: "JW-R-022" },
 ];
 
+const selectedDecorative = [
+  { number: "C-004" },
+  { number: "C-002" },
+  { number: "L26-02" },
+  { number: "L26-04" },
+  { number: "C-001" },
+  { number: "C-007" },
+];
+
 const curatedPlates: Item[] = selectedPlates.flatMap(({ number, imageIndex }) => {
   const artwork = plateArchive.find((item) => item.number === number);
   if (!artwork) return [];
@@ -54,13 +63,25 @@ const curatedJewellery: Item[] = selectedJewellery.flatMap(({ number, imageIndex
   }];
 });
 
+const curatedDecorative: Item[] = selectedDecorative.flatMap(({ number }) => {
+  const artwork = decorativeArchive.find((item) => item.number === number);
+  if (!artwork) return [];
+  return [{
+    slug: artwork.slug,
+    title: artwork.title,
+    number: artwork.number,
+    year: artwork.year,
+    image: artwork.cover || artwork.images[0] || "",
+  }];
+});
+
 const groups: Group[] = [
   { label: "Engraved Plates", path: "engraved-plates", items: curatedPlates },
   { label: "Fine Jewellery", path: "jewellery", items: curatedJewellery },
   {
     label: "Decorative Objects",
     path: "decorative-objects",
-    items: [...decorativeArchive].sort((a, b) => a.order - b.order).map((a) => ({ slug: a.slug, title: a.title, number: a.number, year: a.year, image: a.cover || a.images[0] || "" })),
+    items: curatedDecorative,
   },
   {
     label: "Other Works",
