@@ -1,4 +1,4 @@
-"use client";
+】"use client";
 
 import Link from "next/link";
 import { useRef } from "react";
@@ -96,8 +96,9 @@ function GalleryRow({ group, index }: { group: Group; index: number }) {
     const element = track.current;
     if (!element) return;
     const card = element.querySelector<HTMLElement>(".archive-slide");
-    const distance = card ? card.getBoundingClientRect().width + 18 : 300;
-    element.scrollBy({ left: direction * distance * 2, behavior: "smooth" });
+    const gap = parseFloat(window.getComputedStyle(element).columnGap) || 0;
+    const distance = card ? card.getBoundingClientRect().width + gap : 300;
+    element.scrollBy({ left: direction * distance, behavior: "smooth" });
   }
   return (
     <section className="archive-row" aria-label={group.label}>
