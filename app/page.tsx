@@ -1,17 +1,14 @@
-
 import Link from "next/link";
-import { works, crafts } from "./data";
+import { crafts } from "./data";
 import WorksCarousel from "./works-carousel";
+
 export default function Home() {
   return (
     <main>
       <section className="hero">
         <div className="hero-top">
           <div className="hero-name">
-            <span className="eyebrow">
-              AN ARCHIVE OF ART & CRAFT
-            </span>
-
+            <span className="eyebrow">AN ARCHIVE OF ART & CRAFT</span>
             <h1>
               CHENYI
               <br className="hero-name-break" />
@@ -19,28 +16,23 @@ export default function Home() {
               YE
             </h1>
           </div>
-
           <div className="hero-intro">
             <p>
               Hand Engraver<br />
               Enamel Artist<br />
               Jewellery Designer
             </p>
-
             <span className="mini-rule" />
-
             <Link href="/works" className="quiet-link">
               Explore the archive ↗
             </Link>
           </div>
-
           <img
             className="hero-ornament"
             src="/images/hero-ornament.jpg"
             alt="Illustrative Florentine acanthus ornament"
           />
         </div>
-
         <div className="hero-landscape">
           <img
             src="/images/florence.jpg"
@@ -49,42 +41,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="works-home section-frame">
-        <div className="section-heading side-heading">
-          <div>
-            <span className="index">01 /</span>
-            <h2>
-              EXPLORE<br />
-              THE WORKS
-            </h2>
-            <div className="hairline" />
-          </div>
-
-          <span className="section-side-note">
-            SELECTED WORKS<br />
-            AND STUDIES
-          </span>
-        </div>
-
-        <div className="works-grid">
-          {works.map((w) => (
-            <Link
-              href={"/works/" + w.slug}
-              className="work-tile"
-              key={w.slug}
-            >
-              <div className="image-wrap">
-                <img src={w.image} alt={w.title} />
-              </div>
-
-              <div className="tile-caption">
-                <h3>{w.title}</h3>
-                <span>↗</span>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
+      <WorksCarousel />
 
       <section className="craft-home section-frame">
         <div className="craft-head">
@@ -94,7 +51,6 @@ export default function Home() {
             <p className="italic">From Tools to Creation</p>
           </div>
         </div>
-
         <div className="craft-grid">
           {crafts.map((c) => (
             <Link
@@ -105,12 +61,10 @@ export default function Home() {
               <div className="image-wrap">
                 <img src={c.image} alt={c.title} />
               </div>
-
               <div className="tile-caption">
                 <h3>{c.title}</h3>
                 <span>↗</span>
               </div>
-
               <p className="small-caps">{c.subtitle}</p>
             </Link>
           ))}
@@ -118,26 +72,19 @@ export default function Home() {
       </section>
 
       <section className="about-strip">
-        <span className="index">
-          03 / ABOUT THE ARTIST
-        </span>
-
+        <span className="index">03 / ABOUT THE ARTIST</span>
         <div className="about-artist-content">
           <div className="about-artist-text">
             <h2>About Artist</h2>
-
             <p>
-              Chenyi Ye specialises in traditional hand
-              engraving, enamelling and jewellery design,
-              combining historical craftsmanship with
-              contemporary practice.
+              Chenyi Ye specialises in traditional hand engraving,
+              enamelling and jewellery design, combining historical
+              craftsmanship with contemporary practice.
             </p>
-
             <Link className="quiet-link" href="/about">
               Discover the artist ↗
             </Link>
           </div>
-
           <div className="about-artist-photo">
             <img
               src="/images/L1160096.JPG"
