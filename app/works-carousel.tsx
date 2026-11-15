@@ -11,23 +11,23 @@ type Item = { slug: string; title: string; number: string; year: string; image: 
 type Group = { label: string; path: string; items: Item[] };
 
 // Homepage curation: edit only these selections to change the featured works.
-// The optional imageIndex is zero-based: 1 = second image, 4 = fifth image.
+// imageIndex is zero-based: 1 = photo 02, 2 = photo 03, 4 = photo 05.
 const selectedPlates = [
-  { number: "No. 99", imageIndex: 1 },
   { number: "No. 159" },
   { number: "No. 122" },
+  { number: "No. 99", imageIndex: 1 },
   { number: "No. 82" },
   { number: "No. 47", imageIndex: 4 },
   { number: "No. 110" },
 ];
 
 const selectedJewellery = [
-  "JW-W-026",
-  "JW-W-049",
-  "JW-W-001",
-  "JW-W-013",
-  "JW-W-010",
-  "JW-W-024",
+  { number: "JW-W-020" },
+  { number: "JW-R-005" },
+  { number: "JW-W-001" },
+  { number: "C-005", imageIndex: 2 },
+  { number: "JW-P-009" },
+  { number: "JW-R-022" },
 ];
 
 const curatedPlates: Item[] = selectedPlates.flatMap(({ number, imageIndex }) => {
@@ -42,7 +42,7 @@ const curatedPlates: Item[] = selectedPlates.flatMap(({ number, imageIndex }) =>
   }];
 });
 
-const curatedJewellery: Item[] = selectedJewellery.flatMap((number) => {
+const curatedJewellery: Item[] = selectedJewellery.flatMap(({ number, imageIndex }) => {
   const artwork = jewelleryArchive.find((item) => item.number === number);
   if (!artwork) return [];
   return [{
@@ -50,7 +50,7 @@ const curatedJewellery: Item[] = selectedJewellery.flatMap((number) => {
     title: artwork.title,
     number: artwork.number,
     year: artwork.year,
-    image: artwork.cover || artwork.images[0] || "",
+    image: imageIndex !== undefined ? (artwork.images[imageIndex] || artwork.cover || artwork.images[0] || "") : (artwork.cover || artwork.images[0] || ""),
   }];
 });
 
